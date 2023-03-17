@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { CARD } from '../mock-cards';
+import { ICard } from '../models/card';
 
 @Component({
   selector: 'card',
@@ -6,11 +8,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.less']
 })
 export class CardComponent {
-  title: string = 'Placeholder';
-  icons: any[] = [];
-  description: string = 'You should probably change this.';
+  @Input()
+  card: ICard = CARD;
 
-  constructor() {
-
+  grabCard() {
+    console.log("Grabbed");
+  }
+  
+  dropCard() {
+    console.log("Dropped");
   }
 }

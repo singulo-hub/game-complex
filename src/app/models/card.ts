@@ -1,7 +1,7 @@
 import { ICardType } from "./card-type";
 
 export interface ICard {
-    name: string;
+    cardName: string;
     icons: any[];
     description: string;
     cardType: ICardType;

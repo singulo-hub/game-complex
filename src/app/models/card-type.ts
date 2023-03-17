@@ -1,5 +1,5 @@
 export interface ICardType {
-    name: string;
+    typeName: string;
     description: string;
     backgroundColor: string;
     iconColor: string;
