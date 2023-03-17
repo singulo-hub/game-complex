@@ -9,7 +9,6 @@ import { Component, HostListener } from '@angular/core';
 export class AppComponent {
   @HostListener('document:mousemove', ['$event'])
   onMouseMove(e: any) {
-    console.log(e);
   }
   
   title: string = 'game-complex';

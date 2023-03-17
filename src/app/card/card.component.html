@@ -1,5 +1,6 @@
 <div class="cardBackground" [style.background-color]="this.card.cardType.backgroundColor" (mousedown)="grabCard()" (mouseup)="dropCard()">
     <h3>{{card.cardName | uppercase}}</h3>
-    <img [src]="'/assets/game-icons.net' + card.icons[0]">
+    <img #icon1 [src]="'/assets/game-icons.net' + card.icons[0]">
+    <img #icon2 [src]="'/assets/game-icons.net' + card.icons[0]">
     <p>{{card.description | uppercase}}</p>
 </div>
