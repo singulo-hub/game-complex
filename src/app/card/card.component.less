@@ -12,38 +12,15 @@
         font-weight: 600;
         text-align: center;
         margin: 10% 0 auto 0;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
     }
-
-    .fade-out {
+    
+    .icon {
         position: absolute;
         width: 10vw;
         margin: 7% 0 0 4.75%;
-        animation: fadeout 1s forwards;
-    }
-
-    .fade-in {
-        position: absolute;
-        width: 10vw;
-        margin: 7% 0 0 4.75%;
-        animation: fadein 1s forwards;
-    }
-
-    @keyframes fadeout {
-        from {
-            opacity: 1;
-        }
-        to {
-            opacity: 0;
-        }
-    }
-
-    @keyframes fadein {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
     }
     
     p {
@@ -52,6 +29,9 @@
         text-align: center;
         margin: auto 5% 10% 5%;
         height: 6vw;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
     }
 
     @media only screen and (max-width: 768px) {
@@ -68,12 +48,7 @@
             height: 16vw;
         }
 
-        .fade-out {
-            width: 30vw;
-            margin: 23% 0 0 13%;
-        }
-    
-        .fade-in {
+        .icon {
             width: 30vw;
             margin: 23% 0 0 13%;
         }
