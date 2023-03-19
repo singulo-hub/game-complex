@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { CARD } from '../mock-cards';
 import { ICard } from '../models/card';
-import { trigger, state, transition, style, animate } from '@angular/animations';
+import { trigger, state, transition, style, animate, stagger } from '@angular/animations';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
@@ -13,12 +13,14 @@ import { BehaviorSubject } from 'rxjs';
       state('*', style({ opacity: 0 })),
       state('fadedOut', style({ opacity: 0 })),
       state('fadedIn', style({ opacity: 1 })),
-
+      transition(':enter', [
+        style({opacity: 1})
+      ]),
       transition('* => fadedIn', [
-        animate(3000)
+        animate('2s 3s ease-in')
       ]), 
       transition('* => fadedOut', [
-        animate(3000)
+        animate('2s 3s ease-out')
       ])
     ])
   ]

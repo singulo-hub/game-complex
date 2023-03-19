@@ -1,7 +1,7 @@
 <div class="column-container">
     <h2>{{cardType | uppercase}}</h2>
     <ul>
-        <li *ngFor="let card of this.hand">
+        <li *ngFor="let card of this.hand; index as i" class="card-container" style="--index: {{i}}">
             <card [card]="card"></card>
         </li>
     </ul>
