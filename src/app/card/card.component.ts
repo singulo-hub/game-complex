@@ -30,61 +30,61 @@ export class CardComponent implements AfterViewInit{
   @Input()
   card: ICard = CARD;
 
-  @ViewChild('icon1') icon1: ElementRef | undefined;
-  @ViewChild('icon2') icon2: ElementRef | undefined;
+  @ViewChild('firstIcon') firstIcon: ElementRef | undefined;
+  @ViewChild('secondIcon') secondIcon: ElementRef | undefined;
 
-  showIcon1: BehaviorSubject<boolean>;
-  showIcon2: BehaviorSubject<boolean>;
-  icon1SrcIndex: number = 0;
-  icon2SrcIndex: number = this.icon1SrcIndex + 1;
+  showFirstIcon: BehaviorSubject<boolean>;
+  showSecondIcon: BehaviorSubject<boolean>;
+  firstIconIndex: number = 0;
+  secondIconIndex: number = this.firstIconIndex + 1;
 
   constructor(private elementRef: ElementRef) {
-    this.showIcon1 = new BehaviorSubject(false);
-    this.showIcon2 = new BehaviorSubject(true);
+    this.showFirstIcon = new BehaviorSubject(false);
+    this.showSecondIcon = new BehaviorSubject(true);
   }
 
   ngAfterViewInit(): void {
-    this.icon1?.nativeElement.classList.add('icon');
-    this.icon2?.nativeElement.classList.add('icon');
+    this.firstIcon?.nativeElement.classList.add('icon');
+    this.secondIcon?.nativeElement.classList.add('icon');
 
     switch (this.card.cardType.typeName) {
       case 'Theme':
-        this.icon1?.nativeElement.classList.add('theme-filter');
-        this.icon2?.nativeElement.classList.add('theme-filter');
+        this.firstIcon?.nativeElement.classList.add('theme-filter');
+        this.secondIcon?.nativeElement.classList.add('theme-filter');
         break;
       case 'Goal':
-        this.icon1?.nativeElement.classList.add('goal-filter');
-        this.icon2?.nativeElement.classList.add('goal-filter');
+        this.firstIcon?.nativeElement.classList.add('goal-filter');
+        this.secondIcon?.nativeElement.classList.add('goal-filter');
         break;
       case 'Setting':
-        this.icon1?.nativeElement.classList.add('setting-filter');
-        this.icon2?.nativeElement.classList.add('setting-filter');
+        this.firstIcon?.nativeElement.classList.add('setting-filter');
+        this.secondIcon?.nativeElement.classList.add('setting-filter');
         break;
       case 'Wildcard':
-        this.icon1?.nativeElement.classList.add('wildcard-filter');
-        this.icon2?.nativeElement.classList.add('wildcard-filter');
+        this.firstIcon?.nativeElement.classList.add('wildcard-filter');
+        this.secondIcon?.nativeElement.classList.add('wildcard-filter');
         break;
     }
   }
 
   onFadeDone(event: any) {
-    if (!this.showIcon1.value) {
-      if (this.icon2SrcIndex + 1 >= this.card.icons.length) {
-        this.icon1SrcIndex = 0;
+    if (!this.showFirstIcon.value) {
+      if (this.secondIconIndex + 1 >= this.card.icons.length) {
+        this.firstIconIndex = 0;
       } else {
-        this.icon1SrcIndex = this.icon2SrcIndex + 1;
+        this.firstIconIndex = this.secondIconIndex + 1;
       }
     }
     
-    if (!this.showIcon2.value) {
-      if (this.icon1SrcIndex + 1 >= this.card.icons.length) {
-        this.icon2SrcIndex = 0;
+    if (!this.showSecondIcon.value) {
+      if (this.firstIconIndex + 1 >= this.card.icons.length) {
+        this.secondIconIndex = 0;
       } else {
-        this.icon2SrcIndex = this.icon1SrcIndex + 1;
+        this.secondIconIndex = this.firstIconIndex + 1;
       }
     }
-    this.showIcon1.next(!this.showIcon1.value);
-    this.showIcon2.next(!this.showIcon2.value);
+    this.showFirstIcon.next(!this.showFirstIcon.value);
+    this.showSecondIcon.next(!this.showSecondIcon.value);
   }
 
   grabCard() {
