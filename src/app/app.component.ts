@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, ElementRef, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +7,6 @@ import { Component, HostListener } from '@angular/core';
 })
 
 export class AppComponent {
-  @HostListener('document:mousemove', ['$event'])
-  onMouseMove(e: any) {
-  }
-  
+
   title: string = 'game-complex';
 }

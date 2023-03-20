@@ -4,5 +4,5 @@ export class Goal implements ICardType {
     typeName: string = 'Goal';
     description: string = 'Ultimate task for the player to achieve.';
     backgroundColor: string = '#8D360F';
-    iconColor: string = '#DFBC8C';
+    iconColor: string = '#f3b25e';
 }

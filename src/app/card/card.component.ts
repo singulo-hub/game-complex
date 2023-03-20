@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { CARD } from '../mock-cards';
 import { ICard } from '../models/card';
-import { trigger, state, transition, style, animate, stagger } from '@angular/animations';
+import { trigger, state, transition, style, animate } from '@angular/animations';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
@@ -29,14 +29,17 @@ import { BehaviorSubject } from 'rxjs';
 export class CardComponent implements AfterViewInit{
   @Input()
   card: ICard = CARD;
-
+  
   @ViewChild('firstIcon') firstIcon: ElementRef | undefined;
   @ViewChild('secondIcon') secondIcon: ElementRef | undefined;
+  @ViewChild('lockIcon') lockIcon: ElementRef | undefined;
 
   showFirstIcon: BehaviorSubject<boolean>;
   showSecondIcon: BehaviorSubject<boolean>;
   firstIconIndex: number = 0;
   secondIconIndex: number = this.firstIconIndex + 1;
+  locked = false;
+  grabbed = false;
 
   constructor(private elementRef: ElementRef) {
     this.showFirstIcon = new BehaviorSubject(false);
@@ -51,19 +54,34 @@ export class CardComponent implements AfterViewInit{
       case 'Theme':
         this.firstIcon?.nativeElement.classList.add('theme-filter');
         this.secondIcon?.nativeElement.classList.add('theme-filter');
+        this.lockIcon?.nativeElement.classList.add('theme-filter');
         break;
       case 'Goal':
         this.firstIcon?.nativeElement.classList.add('goal-filter');
         this.secondIcon?.nativeElement.classList.add('goal-filter');
+        this.lockIcon?.nativeElement.classList.add('goal-filter');
         break;
       case 'Setting':
         this.firstIcon?.nativeElement.classList.add('setting-filter');
         this.secondIcon?.nativeElement.classList.add('setting-filter');
+        this.lockIcon?.nativeElement.classList.add('setting-filter');
         break;
       case 'Wildcard':
         this.firstIcon?.nativeElement.classList.add('wildcard-filter');
         this.secondIcon?.nativeElement.classList.add('wildcard-filter');
+        this.lockIcon?.nativeElement.classList.add('wildcard-filter');
         break;
+    }
+  }
+
+  onLockClicked() {
+    this.locked = !this.locked;
+    if (this.locked) {
+      this.lockIcon?.nativeElement.classList.add('lock');
+      this.lockIcon?.nativeElement.classList.remove('unlock');
+    } else {
+      this.lockIcon?.nativeElement.classList.add('unlock');
+      this.lockIcon?.nativeElement.classList.remove('lock');
     }
   }
 
@@ -88,10 +106,12 @@ export class CardComponent implements AfterViewInit{
   }
 
   grabCard() {
-    console.log("Grabbed");
+    if (!this.locked) {
+      this.grabbed = true;
+    }
   }
   
   dropCard() {
-    console.log("Dropped");
+    this.grabbed = false;
   }
 }

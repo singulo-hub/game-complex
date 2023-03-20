@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import arrayShuffle from 'array-shuffle';
 import { CardService } from '../card.service';
 import { ICard } from '../models/card';
@@ -13,7 +13,7 @@ export class CardColumnComponent implements OnInit {
   cardType: string = 'Goal';
   @Input()
   numberToDraw: number = 1;
-
+  
   deck: ICard[] = [];
   hand: ICard[] = [];
 

@@ -5,16 +5,52 @@
     flex-direction: column;
     border-radius: 5%;
     border: 0.5vw solid white;
+    position: relative;
+    
+    .nameContainer {
+        h3 {
+            color: white;
+            font-size: 2vw;
+            font-weight: 600;
+            text-align: center;
+            margin: 10% 0 auto 0;
+            -webkit-user-select: none; /* Safari */
+            -ms-user-select: none; /* IE 10 and IE 11 */
+            user-select: none; /* Standard syntax */
+        }
+        .lockButton {
+            position: relative;
+            width: 2vw;
+            top: -65%;
+            left: 17vw;
+            background-color: transparent;
+            border: 0;
 
-    h3 {
-        color: white;
-        font-size: 2vw;
-        font-weight: 600;
-        text-align: center;
-        margin: 10% 0 auto 0;
-        -webkit-user-select: none; /* Safari */
-        -ms-user-select: none; /* IE 10 and IE 11 */
-        user-select: none; /* Standard syntax */
+            .lock {
+                animation: lock 0.5s ease-in;
+            }
+
+            .unlock {
+                animation: unlock 0.5s ease-out;
+            }
+
+            @keyframes lock {
+                0% {rotate: 0deg;}
+                20% {rotate: 20deg;}
+                40% {rotate: -15deg;}
+                60% {rotate: 10deg;}
+                80% {rotate: -5deg;}
+                100% {rotate: 0deg;}
+            }
+            @keyframes unlock {
+                0% {rotate: 0deg;}
+                20% {rotate: -20deg;}
+                40% {rotate: 15deg;}
+                60% {rotate: -10deg;}
+                80% {rotate: 5deg;}
+                100% {rotate: 0deg;}
+            }
+        }
     }
     
     .icon {
@@ -42,10 +78,19 @@
         width: 57vw;
         height: 80vw;
 
-        h3 {
-            font-size: 7vw;
-            margin: 10% 0 auto 0;
+        .nameContainer {
+            h3 {
+                font-size: 6.5vw;
+                margin: 10% 0 auto 0;
+            }
+            .lockButton {
+                position: relative;
+                width: 6vw;
+                top: -65%;
+                left: 50vw;
+            }
         }
+        
 
         p {
             font-size: 4vw;
@@ -67,7 +112,7 @@
     }
 
     .goal-filter {
-        filter: invert(81%) sepia(27%) saturate(466%) hue-rotate(352deg) brightness(93%) contrast(113%);
+        filter: invert(91%) sepia(16%) saturate(2210%) hue-rotate(318deg) brightness(99%) contrast(92%);
     }
 
     .wildcard-filter {

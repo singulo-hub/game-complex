@@ -1,5 +1,10 @@
-<div class="cardBackground" [style.background-color]="this.card.cardType.backgroundColor" (mousedown)="grabCard()" (mouseup)="dropCard()">
-    <h3>{{card.cardName | uppercase}}</h3>
+<div #cardBackground class="cardBackground" [style.background-color]="this.card.cardType.backgroundColor" (mousedown)="grabCard()" (mouseup)="dropCard()">
+    <div class="nameContainer">
+        <h3>{{card.cardName | uppercase}}</h3>
+        <button class="lockButton" (click)="onLockClicked()">
+            <img #lockIcon [src]="this.locked ? 'https://game-icons.net/icons/000000/transparent/1x1/lorc/padlock.svg' : 'https://game-icons.net/icons/000000/transparent/1x1/delapouite/padlock-open.svg'" draggable="false">
+        </button>
+    </div>
     <img #firstIcon [@fade]="(showFirstIcon | async) ? 'fadedIn' : 'fadedOut'" [src]="'https://game-icons.net/icons/000000/transparent/1x1' + card.icons[firstIconIndex]" draggable="false">
     <img #secondIcon [@fade]="(showSecondIcon | async) ? 'fadedIn' : 'fadedOut'" [src]="'https://game-icons.net/icons/000000/transparent/1x1' + card.icons[secondIconIndex]" draggable="false" (@fade.done)="onFadeDone($event)">
     <p>{{card.description | uppercase}}</p>
