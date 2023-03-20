@@ -1,6 +1,6 @@
 <div class="cardBackground" [style.background-color]="this.card.cardType.backgroundColor" (mousedown)="grabCard()" (mouseup)="dropCard()">
     <h3>{{card.cardName | uppercase}}</h3>
-    <img #firstIcon [@fade]="(showFirstIcon | async) ? 'fadedIn' : 'fadedOut'" [src]="'/assets/game-icons.net' + card.icons[firstIconIndex]" draggable="false">
-    <img #secondIcon [@fade]="(showSecondIcon | async) ? 'fadedIn' : 'fadedOut'" [src]="'/assets/game-icons.net' + card.icons[secondIconIndex]" draggable="false" (@fade.done)="onFadeDone($event)">
+    <img #firstIcon [@fade]="(showFirstIcon | async) ? 'fadedIn' : 'fadedOut'" [src]="'https://game-icons.net/icons/000000/transparent/1x1' + card.icons[firstIconIndex]" draggable="false">
+    <img #secondIcon [@fade]="(showSecondIcon | async) ? 'fadedIn' : 'fadedOut'" [src]="'https://game-icons.net/icons/000000/transparent/1x1' + card.icons[secondIconIndex]" draggable="false" (@fade.done)="onFadeDone($event)">
     <p>{{card.description | uppercase}}</p>
 </div>
