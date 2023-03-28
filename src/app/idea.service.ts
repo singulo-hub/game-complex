@@ -1,16 +1,16 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { GOALS, SETTINGS, THEMES, WILDCARDS } from './mock-cards';
-import { ICard } from './models/card';
+import { GOALS, SETTINGS, THEMES, WILDCARDS } from './mock-ideas';
+import { IIdea } from './models/idea';
 
 @Injectable({
   providedIn: 'root'
 })
-export class CardService {
+export class IdeaService {
 
-  getCards(cardType: string): Observable<ICard[]> {
+  getIdeas(ideaType: string): Observable<IIdea[]> {
     let cards = of(GOALS);
-    switch (cardType) {
+    switch (ideaType) {
       case "Setting":
         cards = of(SETTINGS);
         break;

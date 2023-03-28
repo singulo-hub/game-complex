@@ -1,13 +1,13 @@
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
-import { CARD } from '../mock-cards';
-import { ICard } from '../models/card';
+import { IDEA } from '../mock-ideas';
+import { IIdea } from '../models/idea';
 import { trigger, state, transition, style, animate } from '@angular/animations';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
-  selector: 'card',
-  templateUrl: './card.component.html',
-  styleUrls: ['./card.component.less'],
+  selector: 'idea',
+  templateUrl: './idea.component.html',
+  styleUrls: ['./idea.component.less'],
   animations: [
     trigger('fade', [
       state('*', style({ opacity: 0 })),
@@ -26,9 +26,9 @@ import { BehaviorSubject } from 'rxjs';
   ]
 })
 
-export class CardComponent implements AfterViewInit{
+export class IdeaComponent implements AfterViewInit{
   @Input()
-  card: ICard = CARD;
+  idea: IIdea = IDEA;
   
   @ViewChild('firstIcon') firstIcon: ElementRef | undefined;
   @ViewChild('secondIcon') secondIcon: ElementRef | undefined;
@@ -50,7 +50,7 @@ export class CardComponent implements AfterViewInit{
     this.firstIcon?.nativeElement.classList.add('icon');
     this.secondIcon?.nativeElement.classList.add('icon');
 
-    switch (this.card.cardType.typeName) {
+    switch (this.idea.ideaType.typeName) {
       case 'Theme':
         this.firstIcon?.nativeElement.classList.add('theme-filter');
         this.secondIcon?.nativeElement.classList.add('theme-filter');
@@ -87,7 +87,7 @@ export class CardComponent implements AfterViewInit{
 
   onFadeDone(event: any) {
     if (!this.showFirstIcon.value) {
-      if (this.secondIconIndex + 1 >= this.card.icons.length) {
+      if (this.secondIconIndex + 1 >= this.idea.icons.length) {
         this.firstIconIndex = 0;
       } else {
         this.firstIconIndex = this.secondIconIndex + 1;
@@ -95,7 +95,7 @@ export class CardComponent implements AfterViewInit{
     }
     
     if (!this.showSecondIcon.value) {
-      if (this.firstIconIndex + 1 >= this.card.icons.length) {
+      if (this.firstIconIndex + 1 >= this.idea.icons.length) {
         this.secondIconIndex = 0;
       } else {
         this.secondIconIndex = this.firstIconIndex + 1;
@@ -105,13 +105,13 @@ export class CardComponent implements AfterViewInit{
     this.showSecondIcon.next(!this.showSecondIcon.value);
   }
 
-  grabCard() {
+  grabIdea() {
     if (!this.locked) {
       this.grabbed = true;
     }
   }
   
-  dropCard() {
+  dropIdea() {
     this.grabbed = false;
   }
 }

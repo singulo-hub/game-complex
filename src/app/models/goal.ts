@@ -1,6 +1,6 @@
-import {ICardType} from './card-type';
+import {IIdeaType} from './idea-type';
 
-export class Goal implements ICardType {
+export class Goal implements IIdeaType {
     typeName: string = 'Goal';
     description: string = 'Ultimate task for the player to achieve.';
     backgroundColor: string = '#8D360F';

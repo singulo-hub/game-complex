@@ -1,4 +1,4 @@
-export interface ICardType {
+export interface IIdeaType {
     typeName: string;
     description: string;
     backgroundColor: string;
