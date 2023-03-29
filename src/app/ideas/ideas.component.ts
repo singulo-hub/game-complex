@@ -1,7 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 import arrayShuffle from 'array-shuffle';
 import { IdeaService } from '../idea.service';
+import { goal } from '../mock-ideas';
 import { IIdea } from '../models/idea';
+import { IIdeaType } from '../models/idea-type';
 
 @Component({
   selector: 'ideas',
@@ -10,7 +12,7 @@ import { IIdea } from '../models/idea';
 })
 export class IdeasComponent implements OnInit {
   @Input()
-  ideaType: string = 'Goal';
+  ideaType: IIdeaType = goal;
   @Input()
   amount: number = 1;
   
@@ -20,15 +22,17 @@ export class IdeasComponent implements OnInit {
   constructor(private ideaService: IdeaService) {}
 
   ngOnInit(): void {
-    this.ideaService.getIdeas(this.ideaType).subscribe(ideas => {
-      this.ideas = ideas;
-      if (this.ideas.length > 0) {
-        this.ideas = arrayShuffle(this.ideas);
-        for (let index = 0; index < this.amount; index++) {
-          this.drawCard();
+    if (this.ideaType) {
+      this.ideaService.getIdeas(this.ideaType.typeName).subscribe(ideas => {
+        this.ideas = ideas;
+        if (this.ideas.length > 0) {
+          this.ideas = arrayShuffle(this.ideas);
+          for (let index = 0; index < this.amount; index++) {
+            this.drawCard();
+          }
         }
-      }
-    });
+      });
+    }
   }
 
   drawCard() {

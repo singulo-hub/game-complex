@@ -39,17 +39,13 @@ export class IdeaComponent implements AfterViewInit{
   firstIconIndex: number = 0;
   secondIconIndex: number = this.firstIconIndex + 1;
   locked = false;
-  grabbed = false;
 
-  constructor(private elementRef: ElementRef) {
+  constructor() {
     this.showFirstIcon = new BehaviorSubject(false);
     this.showSecondIcon = new BehaviorSubject(true);
   }
 
   ngAfterViewInit(): void {
-    this.firstIcon?.nativeElement.classList.add('icon');
-    this.secondIcon?.nativeElement.classList.add('icon');
-
     switch (this.idea.ideaType.typeName) {
       case 'Theme':
         this.firstIcon?.nativeElement.classList.add('theme-filter');
@@ -103,15 +99,5 @@ export class IdeaComponent implements AfterViewInit{
     }
     this.showFirstIcon.next(!this.showFirstIcon.value);
     this.showSecondIcon.next(!this.showSecondIcon.value);
-  }
-
-  grabIdea() {
-    if (!this.locked) {
-      this.grabbed = true;
-    }
-  }
-  
-  dropIdea() {
-    this.grabbed = false;
   }
 }

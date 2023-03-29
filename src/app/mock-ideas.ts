@@ -4,10 +4,10 @@ import { Setting } from './models/setting';
 import { Theme } from './models/theme';
 import { Wildcard } from './models/wildcard';
 
-let goal = new Goal();
-let theme = new Theme();
-let wildcard = new Wildcard();
-let setting = new Setting();
+export let goal = new Goal();
+export let theme = new Theme();
+export let wildcard = new Wildcard();
+export let setting = new Setting();
 
 export const IDEA: IIdea =
 {

@@ -1,105 +1,69 @@
-.ideaBackground {
-    width: 19.28vw;
-    height: 27vw;
+.content-container {
     display: flex;
-    flex-direction: column;
-    border-radius: 5%;
-    border: 0.5vw solid white;
-    position: relative;
-    
-    .nameContainer {
-        h3 {
-            color: white;
-            font-size: 2vw;
-            font-weight: 600;
-            text-align: center;
-            margin: 10% 0 auto 0;
-            -webkit-user-select: none; /* Safari */
-            -ms-user-select: none; /* IE 10 and IE 11 */
-            user-select: none; /* Standard syntax */
-        }
-        .lockButton {
-            position: relative;
-            width: 2vw;
-            top: -65%;
-            left: 17vw;
-            background-color: transparent;
-            border: 0;
 
-            .lock {
-                animation: lock 0.5s ease-in;
-            }
-
-            .unlock {
-                animation: unlock 0.5s ease-out;
-            }
-
-            @keyframes lock {
-                0% {rotate: 0deg;}
-                20% {rotate: 20deg;}
-                40% {rotate: -15deg;}
-                60% {rotate: 10deg;}
-                80% {rotate: -5deg;}
-                100% {rotate: 0deg;}
-            }
-            @keyframes unlock {
-                0% {rotate: 0deg;}
-                20% {rotate: -20deg;}
-                40% {rotate: 15deg;}
-                60% {rotate: -10deg;}
-                80% {rotate: 5deg;}
-                100% {rotate: 0deg;}
-            }
-        }
-    }
-    
-    .icon {
-        position: absolute;
-        width: 10vw;
-        margin-left: 4.6vw;
-        margin-top: 7vw;
-        -webkit-user-select: none; /* Safari */
-        -ms-user-select: none; /* IE 10 and IE 11 */
-        user-select: none; /* Standard syntax */
-    }
-    
-    p {
-        color: rgba(255, 255, 255, 0.588235);
-        font-size: 1.4vw;
-        text-align: center;
-        margin: auto 5% 10% 5%;
-        height: 6vw;
-        -webkit-user-select: none; /* Safari */
-        -ms-user-select: none; /* IE 10 and IE 11 */
-        user-select: none; /* Standard syntax */
-    }
-
-    @media only screen and (max-width: 768px) {
-        width: 57vw;
-        height: 80vw;
-
-        .nameContainer {
-            h3 {
-                font-size: 6.5vw;
-                margin: 10% 0 auto 0;
-            }
-            .lockButton {
-                position: relative;
-                width: 6vw;
-                top: -65%;
-                left: 50vw;
-            }
-        }
+    .lock-button {
+        width: 32px;
+        background-color: transparent;
+        border: 0;
+        padding: 0;
         
+        .lock-icon {
+            width: 32px;
+        }
+
+        .lock {
+            animation: lock 0.5s ease-in;
+            opacity: 1;
+        }
+    
+        .unlock {
+            animation: unlock 0.5s ease-out;
+            opacity: 0.5;
+        }
+    
+        @keyframes lock {
+            0% {rotate: 0deg;}
+            20% {rotate: 20deg;}
+            40% {rotate: -15deg;}
+            60% {rotate: 10deg;}
+            80% {rotate: -5deg;}
+            100% {rotate: 0deg;}
+        }
+        @keyframes unlock {
+            0% {rotate: 0deg;}
+            20% {rotate: -20deg;}
+            40% {rotate: 15deg;}
+            60% {rotate: -10deg;}
+            80% {rotate: 5deg;}
+            100% {rotate: 0deg;}
+        }
+    }
+
+    .text-container {
+        h3 {
+            font-size: 32px;
+            text-align: left;
+            margin: 0;
+        }
 
         p {
-            font-size: 4vw;
-            height: 16vw;
+            color: white;
+            font-size: 24px;
+            text-align: left;
+            margin: 0;
+            opacity: 0.5;
         }
-
+    }
+    
+    .icon-container {
+        width: 64px;
+        height: 64px;
+        margin: 0 32px 0 16px;
+        flex-shrink: 0;
+        
         .icon {
-            width: 30vw;
-            margin: 23% 0 0 13%;
+            position: absolute;
+            width: 64px;
         }
     }
 

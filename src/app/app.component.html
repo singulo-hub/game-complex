@@ -1,14 +1,7 @@
-<div class="columns-container">
-    <div class="column">
-        <ideas ideaType="Theme" [amount]=1></ideas>
-    </div>
-    <div class="column">
-        <ideas ideaType="Goal" [amount]=1></ideas>
-    </div>
-    <div class="column">
-        <ideas ideaType="Setting" [amount]=2></ideas>
-    </div>
-    <div class="column">
-        <ideas ideaType="Wildcard" [amount]=3></ideas>
-    </div>
+<h1>GAME COMPLEX</h1>
+<div class="idea-types-container">
+    <ideas [ideaType]="theme" [amount]=1></ideas>
+    <ideas [ideaType]="goal" [amount]=1></ideas>
+    <ideas [ideaType]="setting" [amount]=2></ideas>
+    <ideas [ideaType]="wildcard" [amount]=3></ideas>
 </div>

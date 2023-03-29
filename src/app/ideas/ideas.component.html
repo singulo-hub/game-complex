@@ -1,7 +1,7 @@
-<div class="column-container">
-    <h2>{{ideaType | uppercase}}</h2>
+<div class="ideas-container">
+    <h2 [style.color]="ideaType.iconColor">{{ideaType.typeName| uppercase}}</h2>
     <ul>
-        <li *ngFor="let idea of this.activeIdeas; index as i" class="idea-container" style="--index: {{i}}">
+        <li *ngFor="let idea of this.activeIdeas; index as i" class="idea-container">
             <idea [idea]="idea"></idea>
         </li>
     </ul>

@@ -1,11 +1,13 @@
-<div #ideaBackground class="ideaBackground" [style.background-color]="this.idea.ideaType.backgroundColor" (mousedown)="grabIdea()" (mouseup)="dropIdea()">
-    <div class="nameContainer">
-        <h3>{{idea.ideaName | uppercase}}</h3>
-        <button class="lockButton" (click)="onLockClicked()">
-            <img #lockIcon [src]="this.locked ? 'https://game-icons.net/icons/000000/transparent/1x1/lorc/padlock.svg' : 'https://game-icons.net/icons/000000/transparent/1x1/delapouite/padlock-open.svg'" draggable="false">
-        </button>
+<div class="content-container">
+    <button class="lock-button" (click)="onLockClicked()">
+        <img #lockIcon class="lock-icon unlock" [src]="this.locked ? 'assets/game-icons.net/lorc/padlock.svg' : 'assets/game-icons.net/delapouite/padlock-open.svg'" draggable="false">
+    </button>
+    <div class="icon-container">
+        <img #firstIcon class="icon" [@fade]="(showFirstIcon | async) ? 'fadedIn' : 'fadedOut'" [src]="'assets/game-icons.net' + idea.icons[firstIconIndex]" draggable="false">
+        <img #secondIcon class="icon" [@fade]="(showSecondIcon | async) ? 'fadedIn' : 'fadedOut'" [src]="'assets/game-icons.net' + idea.icons[secondIconIndex]" draggable="false" (@fade.done)="onFadeDone($event)">
     </div>
-    <img #firstIcon [@fade]="(showFirstIcon | async) ? 'fadedIn' : 'fadedOut'" [src]="'https://game-icons.net/icons/000000/transparent/1x1' + idea.icons[firstIconIndex]" draggable="false">
-    <img #secondIcon [@fade]="(showSecondIcon | async) ? 'fadedIn' : 'fadedOut'" [src]="'https://game-icons.net/icons/000000/transparent/1x1' + idea.icons[secondIconIndex]" draggable="false" (@fade.done)="onFadeDone($event)">
-    <p>{{idea.description | uppercase}}</p>
+    <div class="text-container">
+        <h3 [style.color]="idea.ideaType.iconColor">{{idea.ideaName | uppercase}}</h3>
+        <p>{{idea.description | uppercase}}</p>
+    </div>
 </div>

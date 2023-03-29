@@ -1,13 +1,23 @@
-.columns-container {
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 64px;
+}
+
+.idea-types-container {
     display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 768px) {
-    .columns-container {
-        flex-direction: column;
+    .idea-types-container {
+        width: auto;
+        margin: 0;
     }
 }
 
-.column {
+ideas {
     flex-grow: 1;
 }
