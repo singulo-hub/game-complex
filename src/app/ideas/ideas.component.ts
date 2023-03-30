@@ -15,7 +15,7 @@ export class IdeasComponent implements OnInit {
   ideaType: IIdeaType = goal;
   @Input()
   amount: number = 1;
-  
+
   ideas: IIdea[] = [];
   activeIdeas: IIdea[] = [];
 
@@ -28,26 +28,26 @@ export class IdeasComponent implements OnInit {
         if (this.ideas.length > 0) {
           this.ideas = arrayShuffle(this.ideas);
           for (let index = 0; index < this.amount; index++) {
-            this.drawCard();
+            this.getIdea(index);
           }
         }
       });
     }
   }
-
-  drawCard() {
+  
+  getIdea(index: number) {
     let newCard = this.ideas.pop();
     if (newCard) {
-      this.activeIdeas.push(newCard);
+      this.activeIdeas[index] = newCard;
     }
   }
 
-  discardIdea(index: number) {
+  dropIdea(index: number) {
     let oldIdea = this.activeIdeas.at(index);
     if (oldIdea) {
       // Put the card at the bottom of the deck
-      this.ideas.splice(0, 0, oldIdea);
-      delete this.activeIdeas[index];
+      this.ideas.unshift(oldIdea);
+      this.getIdea(index);
     }
   }
 }

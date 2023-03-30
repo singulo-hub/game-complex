@@ -11,13 +11,13 @@ export class IdeaService {
   getIdeas(ideaType: string): Observable<IIdea[]> {
     let cards = of(GOALS);
     switch (ideaType) {
-      case "Setting":
+      case "Settings":
         cards = of(SETTINGS);
         break;
-      case "Theme":
+      case "Themes":
         cards = of(THEMES);
         break;
-      case "Wildcard":
+      case "Wildcards":
         cards = of(WILDCARDS);
         break;
     }

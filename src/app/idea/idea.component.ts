@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, EventEmitter, Input, Output, ViewChild } from '@angular/core';
 import { IDEA } from '../mock-ideas';
 import { IIdea } from '../models/idea';
 import { trigger, state, transition, style, animate } from '@angular/animations';
@@ -29,11 +29,16 @@ import { BehaviorSubject } from 'rxjs';
 export class IdeaComponent implements AfterViewInit{
   @Input()
   idea: IIdea = IDEA;
+  @Input()
+  index: number = 0;
+
+  @Output()
+  onClicked = new EventEmitter<number>();
   
   @ViewChild('firstIcon') firstIcon: ElementRef | undefined;
   @ViewChild('secondIcon') secondIcon: ElementRef | undefined;
   @ViewChild('lockIcon') lockIcon: ElementRef | undefined;
-
+  
   showFirstIcon: BehaviorSubject<boolean>;
   showSecondIcon: BehaviorSubject<boolean>;
   firstIconIndex: number = 0;
@@ -47,22 +52,22 @@ export class IdeaComponent implements AfterViewInit{
 
   ngAfterViewInit(): void {
     switch (this.idea.ideaType.typeName) {
-      case 'Theme':
+      case 'Themes':
         this.firstIcon?.nativeElement.classList.add('theme-filter');
         this.secondIcon?.nativeElement.classList.add('theme-filter');
         this.lockIcon?.nativeElement.classList.add('theme-filter');
         break;
-      case 'Goal':
+      case 'Goals':
         this.firstIcon?.nativeElement.classList.add('goal-filter');
         this.secondIcon?.nativeElement.classList.add('goal-filter');
         this.lockIcon?.nativeElement.classList.add('goal-filter');
         break;
-      case 'Setting':
+      case 'Settings':
         this.firstIcon?.nativeElement.classList.add('setting-filter');
         this.secondIcon?.nativeElement.classList.add('setting-filter');
         this.lockIcon?.nativeElement.classList.add('setting-filter');
         break;
-      case 'Wildcard':
+      case 'Wildcards':
         this.firstIcon?.nativeElement.classList.add('wildcard-filter');
         this.secondIcon?.nativeElement.classList.add('wildcard-filter');
         this.lockIcon?.nativeElement.classList.add('wildcard-filter');
@@ -79,6 +84,10 @@ export class IdeaComponent implements AfterViewInit{
       this.lockIcon?.nativeElement.classList.add('unlock');
       this.lockIcon?.nativeElement.classList.remove('lock');
     }
+  }
+
+  onDiscardClicked(event: any) {
+    this.onClicked.emit(this.index);
   }
 
   onFadeDone(event: any) {
