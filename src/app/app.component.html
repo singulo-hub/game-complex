@@ -1,8 +1,9 @@
 <h1 class="title">GAME COMPLEX</h1>
 <p class="subtitle">A Game Idea Generator by Singulo</p>
 <div class="idea-types-container">
-    <ideas [ideaType]="theme" [amount]=1></ideas>
-    <ideas [ideaType]="goal" [amount]=1></ideas>
-    <ideas [ideaType]="setting" [amount]=2></ideas>
-    <ideas [ideaType]="wildcard" [amount]=3></ideas>
+    <ideas [ideaType]="themeType" [amount]=1 [randomizeEvent]="randomizeSubject.asObservable()"></ideas>
+    <ideas [ideaType]="goalType" [amount]=1 [randomizeEvent]="randomizeSubject.asObservable()"></ideas>
+    <ideas [ideaType]="settingType" [amount]=2 [randomizeEvent]="randomizeSubject.asObservable()"></ideas>
+    <ideas [ideaType]="wildcardType" [amount]=3 [randomizeEvent]="randomizeSubject.asObservable()"></ideas>
+    <button #randomizeButton class="randomize-button" (click)="onRandomizeClicked($event)">RANDOMIZE</button>
 </div>

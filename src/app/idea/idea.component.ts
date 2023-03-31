@@ -34,6 +34,8 @@ export class IdeaComponent implements AfterViewInit{
 
   @Output()
   onClicked = new EventEmitter<number>();
+  @Output()
+  onLocked = new EventEmitter<number>();
   
   @ViewChild('firstIcon') firstIcon: ElementRef | undefined;
   @ViewChild('secondIcon') secondIcon: ElementRef | undefined;
@@ -77,6 +79,7 @@ export class IdeaComponent implements AfterViewInit{
 
   onLockClicked() {
     this.locked = !this.locked;
+    this.onLocked.emit(this.index);
     if (this.locked) {
       this.lockIcon?.nativeElement.classList.add('lock');
       this.lockIcon?.nativeElement.classList.remove('unlock');
@@ -87,7 +90,9 @@ export class IdeaComponent implements AfterViewInit{
   }
 
   onDiscardClicked(event: any) {
-    this.onClicked.emit(this.index);
+    if (!this.locked) {
+      this.onClicked.emit(this.index);
+    }
   }
 
   onFadeDone(event: any) {

@@ -1,27 +1,27 @@
 import { IIdea } from './models/idea';
-import { Goal } from './models/goal';
-import { Setting } from './models/setting';
-import { Theme } from './models/theme';
-import { Wildcard } from './models/wildcard';
+import { GoalType } from './models/idea-types/goal';
+import { SettingType } from './models/idea-types/setting';
+import { ThemeType } from './models/idea-types/theme';
+import { WildcardType } from './models/idea-types/wildcard';
 
-export let goal = new Goal();
-export let theme = new Theme();
-export let wildcard = new Wildcard();
-export let setting = new Setting();
+export let goalType = new GoalType();
+export let themeType = new ThemeType();
+export let wildcardType = new WildcardType();
+export let settingType = new SettingType();
 
 export const IDEA: IIdea =
 {
     ideaName: 'Placeholder',
     icons: ['/lorc/uncertainty.svg'],
     description: 'You should probably change this.',
-    ideaType: goal
+    ideaType: goalType
 };
 
 export const GOALS: IIdea[] = [
     {
         ideaName: 'Collect',
         description: 'Complete your collection!',
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/delapouite/butterfly-flower.svg',
             '/delapouite/medallist.svg',
@@ -37,7 +37,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Avoid',
         description: "Someone wants to avoid something.",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/felbrigg/dodge.svg',
             '/delapouite/boulder-dash.svg',
@@ -53,7 +53,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Build',
         description: "It's cool because you made it.",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/lorc/dozen.svg',
             '/delapouite/crane.svg',
@@ -69,7 +69,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Chase',
         description: "Everyone loves the thrill of the chase!",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/delapouite/speed-boat.svg',
             '/caro-asercion/cloaked-figure-on-horseback.svg',
@@ -85,7 +85,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Conquest',
         description: "Capturing anything by force with a valiant effort.",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/delapouite/flag-objective.svg',
             '/delapouite/exploding-planet.svg',
@@ -101,7 +101,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Delivery',
         description: "Give something to someone.",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/delapouite/delivery-drone.svg',
             '/lorc/galleon.svg',
@@ -117,7 +117,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Destroy',
         description: "Whatever is standing, it won't be for long!",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/skoll/carpet-bombing.svg',
             '/lorc/demolish.svg',
@@ -133,7 +133,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Escape',
         description: "Someone wants to leave where they are.",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/delapouite/forest-entrance.svg',
             '/delapouite/cave-entrance.svg',
@@ -149,7 +149,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Fight',
         description: "Someone is attacking or being attacked.",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/lorc/sword-clash.svg',
             '/lorc/cannon-shot.svg',
@@ -165,7 +165,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Rescue',
         description: "Someone is in trouble and needs help!",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/lorc/paranoia.svg',
             '/lorc/shield-reflect.svg',
@@ -181,7 +181,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Steal',
         description: "Someone wants to take something that isn't thier's.",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/lorc/paranoia.svg',
             '/lorc/shield-reflect.svg',
@@ -197,7 +197,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Survive',
         description: "Do whatever it takes to survive just one more day.",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/lorc/snowflake-2.svg',
             '/delapouite/water-bottle.svg',
@@ -213,7 +213,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Thrive',
         description: "Make a new home and make it grow and prosper.",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/delapouite/castle.svg',
             '/lorc/hammer-nails.svg',
@@ -229,7 +229,7 @@ export const GOALS: IIdea[] = [
     {
         ideaName: 'Solve',
         description: "Unravel the mystery. Complete the puzzle.",
-        ideaType: goal,
+        ideaType: goalType,
         icons: [
             '/delapouite/archive-research.svg',
             '/delapouite/puzzle.svg',
@@ -248,7 +248,7 @@ export const THEMES: IIdea[] = [
     {
         ideaName: 'Betrayal',
         description: 'Someone has been betrayed!',
-        ideaType: theme,
+        ideaType: themeType,
         icons: [
             '/lorc/deathcab.svg',
             '/delapouite/broken-axe.svg',
@@ -264,7 +264,7 @@ export const THEMES: IIdea[] = [
     {
         ideaName: 'Chance',
         description: '"Just one more roll!"',
-        ideaType: theme,
+        ideaType: themeType,
         icons: [
             '/caro-asercion/coinflip.svg',
             '/caro-asercion/slot-machine.svg',
@@ -280,7 +280,7 @@ export const THEMES: IIdea[] = [
     {
         ideaName: 'Cost',
         description: 'Everything has a price.',
-        ideaType: theme,
+        ideaType: themeType,
         icons: [
             '/delapouite/price-tag.svg',
             '/lorc/frankenstein-creature.svg',
@@ -296,7 +296,7 @@ export const THEMES: IIdea[] = [
     {
         ideaName: 'Duality',
         description: 'Having two parts, often with opposite meanings.',
-        ideaType: theme,
+        ideaType: themeType,
         icons: [
             '/delapouite/multi-directions.svg',
             '/delapouite/toggles.svg',
@@ -312,7 +312,7 @@ export const THEMES: IIdea[] = [
     {
         ideaName: 'Exploration',
         description: 'Discover the mysteries of the world.',
-        ideaType: theme,
+        ideaType: themeType,
         icons: [
             '/lorc/treasure-map.svg',
             '/delapouite/lunar-module.svg',
@@ -328,7 +328,7 @@ export const THEMES: IIdea[] = [
     {
         ideaName: 'Extinction',
         description: 'An extinction event is threatening all life!',
-        ideaType: theme,
+        ideaType: themeType,
         icons: [
             '/lorc/mushroom-cloud.svg',
             '/lorc/snowing.svg',
@@ -344,7 +344,7 @@ export const THEMES: IIdea[] = [
     {
         ideaName: 'Fear',
         description: 'Sending chills up your spine.',
-        ideaType: theme,
+        ideaType: themeType,
         icons: [
             '/skoll/raise-zombie.svg',
             '/lorc/dark-squad.svg',
@@ -360,7 +360,7 @@ export const THEMES: IIdea[] = [
     {
         ideaName: 'Forbidden',
         description: "Don't push that button.",
-        ideaType: theme,
+        ideaType: themeType,
         icons: [
             '/delapouite/button-finger.svg',
             '/lorc/temptation.svg',
@@ -376,7 +376,7 @@ export const THEMES: IIdea[] = [
     {
         ideaName: 'Greed',
         description: "It's all about taking more than you give.",
-        ideaType: theme,
+        ideaType: themeType,
         icons: [
             '/lorc/top-hat.svg',
             '/delapouite/piggy-bank.svg',
@@ -392,7 +392,7 @@ export const THEMES: IIdea[] = [
     {
         ideaName: 'Home',
         description: 'Everyone wants a place to call home.',
-        ideaType: theme,
+        ideaType: themeType,
         icons: [
             '/delapouite/hot-meal.svg',
             '/delapouite/family-house.svg',
@@ -411,7 +411,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'A E S T H E T I C',
         description: "Nostalgic 80's elements celebrating a time past.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/headphones.svg',
             '/skoll/f1-car.svg',
@@ -427,7 +427,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Ancient',
         description: 'The oldest kingdoms in existence.',
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/oasis.svg',
             '/delapouite/nefertiti.svg',
@@ -443,7 +443,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Post-Apocalypse',
         description: "The world has already ended, and you're stuck in it.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/lock-picking.svg',
             '/delapouite/heart-armor.svg',
@@ -459,7 +459,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Mythic',
         description: "Hellenic era with magical creatures and great heroes.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/coliseum.svg',
             '/lorc/hydra.svg',
@@ -475,7 +475,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Colony',
         description: "Located in a foreign land, far from civilization.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/well.svg',
             '/delapouite/caravel.svg',
@@ -491,7 +491,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Horror',
         description: "Fear of the unknown is a powerful thing.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/lorc/paranoia.svg',
             '/lorc/evil-comet.svg',
@@ -507,7 +507,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Crime',
         description: "Crime never pays. Or does it?",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/lock-picking.svg',
             '/lorc/handcuffs.svg',
@@ -523,7 +523,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Fantasy',
         description: "Anything magical or supernatural.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/lorc/dragon-head.svg',
             '/delapouite/fire-spell-cast.svg',
@@ -539,7 +539,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Japanese',
         description: "Follow the path of the samurai.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/bamboo-fountain.svg',
             '/delapouite/kimono.svg',
@@ -555,7 +555,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Medieval',
         description: "Horseback riding and swordsmanship.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/throne-king.svg',
             '/delapouite/uprising.svg',
@@ -571,7 +571,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Modern',
         description: "Technology or events that are close to the real world.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/satellite-communication.svg',
             '/delapouite/commercial-airplane.svg',
@@ -587,7 +587,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Pirates',
         description: "Swashbucklers sailing the seven seas for treasure!",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/skoll/open-treasure-chest.svg',
             '/delapouite/eyepatch.svg',
@@ -603,7 +603,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Science Fiction',
         description: "Any futuristic speculative technology.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/cryo-chamber.svg',
             '/lorc/ray-gun.svg',
@@ -619,7 +619,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Space',
         description: "Explore the stars with rockets, space suits, and satelites.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/solar-system.svg',
             '/lorc/burning-meteor.svg',
@@ -635,7 +635,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Steampunk',
         description: "What if everything was powered by steam?",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/skoll/pocket-watch.svg',
             '/delapouite/corset.svg',
@@ -651,7 +651,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Vikings',
         description: "Plunder, pillage, and raze your enemies!",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/lorc/crossed-axes.svg',
             '/lorc/hunting-horn.svg',
@@ -667,7 +667,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Western',
         description: "Folk tales about the untamed frontier.",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/delapouite/bandit.svg',
             '/delapouite/saddle.svg',
@@ -683,7 +683,7 @@ export const SETTINGS: IIdea[] = [
     {
         ideaName: 'Zombies',
         description: "Undead shambling corpses have taken over!",
-        ideaType: setting,
+        ideaType: settingType,
         icons: [
             '/lorc/dozen.svg',
             '/quoting/lost-limb.svg',
@@ -702,7 +702,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Arcade',
         description: 'Include a small arcade game.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/floating-platforms.svg',
             '/delapouite/finish-line.svg',
@@ -718,7 +718,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Backtracking',
         description: 'Go back to an earlier area, hopefully with something new!',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/drawbridge.svg',
             '/lorc/return-arrow.svg',
@@ -734,7 +734,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Breathtaking',
         description: 'Have a scenic vista somewhere.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/viking-church.svg',
             '/delapouite/binoculars.svg',
@@ -750,7 +750,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Cheats',
         description: 'Include cheats that can be unlocked or discovered.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/hand-of-god.svg',
             '/delapouite/giant.svg',
@@ -766,7 +766,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Collectibles',
         description: 'Be able to collect all sorts of interesting objects to show off!',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/bookshelf.svg',
             '/lorc/gems.svg',
@@ -782,7 +782,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Companion',
         description: 'You get a companion of some kind.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/labrador-head.svg',
             '/lorc/paw-heart.svg',
@@ -798,7 +798,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Cooking',
         description: 'Add a cooking mini-game.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/hot-meal.svg',
             '/delapouite/eating.svg',
@@ -814,7 +814,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Crafting',
         description: 'Include some ability to create your own items.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/shoulder-armor.svg',
             '/lorc/sword-smithing.svg',
@@ -830,7 +830,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Currency',
         description: 'There is some form of currency being used.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/lorc/ringing-bell.svg',
             '/delapouite/banknote.svg',
@@ -846,7 +846,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Customization',
         description: 'Be able to customize something and give it new looks or stats.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/skills.svg',
             '/delapouite/nose-side.svg',
@@ -862,7 +862,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Destructible',
         description: 'Make something able to collapse or explode!',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/lorc/tower-fall.svg',
             '/delapouite/hammer-break.svg',
@@ -878,7 +878,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Diegetic',
         description: 'The UI / HUD exists in the game world.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/lorc/treasure-map.svg',
             '/delapouite/binoculars.svg',
@@ -894,7 +894,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Fast Travel',
         description: 'Have some way to travel quickly through the game world.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/speed-boat.svg',
             '/delapouite/plane-wing.svg',
@@ -910,7 +910,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Fishing',
         description: 'Pull up fish and occasionally treasure!',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/boat-fishing.svg',
             '/delapouite/fishing-lure.svg',
@@ -926,7 +926,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Fog',
         description: 'Dense fog limits your view.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/light-projector.svg',
             '/delapouite/lighthouse.svg',
@@ -942,7 +942,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Level Up',
         description: 'Be able to upgrade something.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/jump-across.svg',
             '/delapouite/upgrade.svg',
@@ -958,7 +958,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Leviathan',
         description: 'Scale something up so drastically that your jaw drops!',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/giant.svg',
             '/lorc/big-wave.svg',
@@ -974,7 +974,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Limited',
         description: 'A resource / ability is limited further in some way.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/lorc/batteries.svg',
             '/sbed/weight-crush.svg',
@@ -990,7 +990,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Multitool',
         description: 'One tool or weapon with many uses.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/tomahawk.svg',
             '/delapouite/swiss-army-knife.svg',
@@ -1006,7 +1006,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Mute',
         description: 'No talking or reading. Just atmosphere.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/musical-notes.svg',
             '/delapouite/silenced.svg',
@@ -1022,7 +1022,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'My Name Is',
         description: 'Let the player name their character.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/id-card.svg',
             '/delapouite/skills.svg',
@@ -1038,7 +1038,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'New Game+',
         description: 'New content that is only accessible after beating the game.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/bolt-spell-cast.svg',
             '/lorc/divergence.svg',
@@ -1054,7 +1054,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'One Life',
         description: 'One chance, then the game restarts.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/skoll/knockout.svg',
             '/lorc/internal-injury.svg',
@@ -1070,7 +1070,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Overgrown',
         description: 'Part of a level has been taken over by nature.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/high-grass.svg',
             '/delapouite/stump-regrowth.svg',
@@ -1086,7 +1086,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Party',
         description: 'Control multiple characters.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/lorc/dozen.svg',
             '/delapouite/three-friends.svg',
@@ -1102,7 +1102,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Pet Rock',
         description: 'Make an inanimate object sentient and have character.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/skoll/race-car.svg',
             '/john-colburn/pistol-gun.svg',
@@ -1118,7 +1118,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Playable Menu',
         description: 'The main menu is also playable.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/pool-dive.svg',
             '/delapouite/toggles.svg',
@@ -1134,7 +1134,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Power-ups',
         description: 'Add temporary benefits / abilities to be obtained.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/jump-across.svg',
             '/delapouite/shield-impact.svg',
@@ -1150,7 +1150,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Procedural',
         description: 'Randomly generate something in your game.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/mountain-road.svg',
             '/delapouite/skills.svg',
@@ -1166,7 +1166,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Punny',
         description: 'Include your favorite pun. Please just one, though.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/cathelineau/tree-face.svg',
             '/lorc/grapes.svg',
@@ -1182,7 +1182,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Real-World Time',
         description: 'Your game uses real-world time in some way.',
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/family-tree.svg',
             '/delapouite/tree-growth.svg',
@@ -1198,7 +1198,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Secret',
         description: "There's a secret hidden somewhere.",
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/lorc/treasure-map.svg',
             '/lorc/sinking-trap.svg',
@@ -1214,7 +1214,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Shortcut',
         description: "Include a shortcut for perceptive players.",
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/underground-cave.svg',
             '/delapouite/open-gate.svg',
@@ -1230,7 +1230,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Splash Screen',
         description: "Include a charming audio jingle and logo intro.",
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/sound-on.svg',
             '/delapouite/entry-door.svg',
@@ -1246,7 +1246,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Stalker',
         description: "Someone or something is following you.",
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/hunter-eyes.svg',
             '/lorc/paranoia.svg',
@@ -1262,7 +1262,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Talking',
         description: "Be able to talk to people, creatures, or things.",
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/tribunal-jury.svg',
             '/lorc/conversation.svg',
@@ -1278,7 +1278,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Taming',
         description: "Enemies become friends!",
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/health-potion.svg',
             '/delapouite/take-my-money.svg',
@@ -1294,7 +1294,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Time Passage',
         description: "Include a waiting mechanic to pass time.",
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/delapouite/watch.svg',
             '/skoll/read.svg',
@@ -1310,7 +1310,7 @@ export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Weather',
         description: "Have some kind of weather.",
-        ideaType: wildcard,
+        ideaType: wildcardType,
         icons: [
             '/lorc/raining.svg',
             '/lorc/snowing.svg',
