@@ -27,11 +27,7 @@ export const GOALS: IIdea[] = [
             '/delapouite/medallist.svg',
             '/lorc/dozen.svg',
             '/delapouite/spell-book.svg',
-            '/delapouite/coins-pile.svg',
-            '/lorc/sword-array.svg',
-            '/delapouite/converse-shoe.svg',
-            '/lorc/spiral-shell.svg',
-            '/delapouite/power-ring.svg'
+            '/delapouite/coins-pile.svg'
         ]
     },
     {
@@ -43,11 +39,7 @@ export const GOALS: IIdea[] = [
             '/delapouite/boulder-dash.svg',
             '/lorc/dinosaur-rex.svg',
             '/delapouite/detour.svg',
-            '/lorc/tripwire.svg',
-            '/delapouite/avoidance.svg',
-            '/lorc/dodging.svg',
-            '/delapouite/jump-across.svg',
-            '/delapouite/pool-dive.svg'
+            '/lorc/tripwire.svg'
         ]
     },
     {
@@ -59,11 +51,7 @@ export const GOALS: IIdea[] = [
             '/delapouite/crane.svg',
             '/delapouite/concrete-bag.svg',
             '/lorc/tinker.svg',
-            '/caro-asercion/paper-crane.svg',
-            '/delapouite/mechanic-garage.svg',
-            '/lorc/circuitry.svg',
-            '/lorc/hammer-nails.svg',
-            '/lorc/anvil-impact.svg'
+            '/caro-asercion/paper-crane.svg'
         ]
     },
     {
@@ -75,11 +63,7 @@ export const GOALS: IIdea[] = [
             '/caro-asercion/cloaked-figure-on-horseback.svg',
             '/quoting/biplane.svg',
             '/skoll/race-car.svg',
-            '/delapouite/deer-track.svg',
-            '/lorc/grab.svg',
-            '/lorc/food-chain.svg',
-            '/darkzaitzev/running-ninja.svg',
-            '/delapouite/bug-net.svg'
+            '/delapouite/deer-track.svg'
         ]
     },
     {
@@ -91,11 +75,7 @@ export const GOALS: IIdea[] = [
             '/delapouite/exploding-planet.svg',
             '/quoting/bunker-assault.svg',
             '/cathelineau/annexation.svg',
-            '/delapouite/trojan-horse.svg',
-            '/delapouite/planet-conquest.svg',
-            '/lorc/sword-clash.svg',
-            '/cathelineau/occupy.svg',
-            '/delapouite/charging-bull.svg'
+            '/delapouite/trojan-horse.svg'
         ]
     },
     {
@@ -107,11 +87,7 @@ export const GOALS: IIdea[] = [
             '/lorc/galleon.svg',
             '/delapouite/cardboard-box-closed.svg',
             '/delapouite/mine-wagon.svg',
-            '/delapouite/cargo-ship.svg',
-            '/delapouite/stork-delivery.svg',
-            '/delapouite/cargo-crate.svg',
-            '/delapouite/mailbox.svg',
-            '/delapouite/hand-truck.svg'
+            '/delapouite/cargo-ship.svg'
         ]
     },
     {
@@ -123,11 +99,7 @@ export const GOALS: IIdea[] = [
             '/lorc/demolish.svg',
             '/lorc/pyromaniac.svg',
             '/lorc/wrecking-ball.svg',
-            '/delapouite/hammer-break.svg',
-            '/delapouite/death-star.svg',
-            '/delapouite/ship-wreck.svg',
-            '/lorc/spiky-explosion.svg',
-            '/delapouite/dynamite.svg'
+            '/delapouite/hammer-break.svg'
         ]
     },
     {
@@ -138,12 +110,7 @@ export const GOALS: IIdea[] = [
             '/delapouite/forest-entrance.svg',
             '/delapouite/cave-entrance.svg',
             '/delapouite/evasion.svg',
-            '/delapouite/fish-escape.svg',
-            '/lorc/sinking-trap.svg',
-            '/skoll/siren.svg',
-            '/delapouite/prisoner.svg',
-            '/delapouite/cage.svg',
-            '/delapouite/exit-door.svg'
+            '/delapouite/fish-escape.svg'
         ]
     },
     {
@@ -155,11 +122,7 @@ export const GOALS: IIdea[] = [
             '/lorc/cannon-shot.svg',
             '/delapouite/coliseum.svg',
             '/skoll/knockout.svg',
-            '/lorc/internal-injury.svg',
-            '/delapouite/armor-punch.svg',
-            '/delapouite/boxing-ring.svg',
-            '/delapouite/shield-impact.svg',
-            '/lorc/bleeding-wound.svg'
+            '/lorc/internal-injury.svg'
         ]
     },
     {
@@ -171,11 +134,7 @@ export const GOALS: IIdea[] = [
             '/lorc/shield-reflect.svg',
             '/delapouite/lighthouse.svg',
             '/lorc/angel-outfit.svg',
-            '/delapouite/life-buoy.svg',
-            '/lorc/hospital-cross.svg',
-            '/lorc/fire-axe.svg',
-            '/delapouite/buoy.svg',
-            '/delapouite/helicopter.svg'
+            '/delapouite/life-buoy.svg'
         ]
     },
     {
@@ -187,11 +146,7 @@ export const GOALS: IIdea[] = [
             '/lorc/shield-reflect.svg',
             '/delapouite/lighthouse.svg',
             '/lorc/angel-outfit.svg',
-            '/delapouite/life-buoy.svg',
-            '/lorc/hospital-cross.svg',
-            '/lorc/fire-axe.svg',
-            '/delapouite/buoy.svg',
-            '/delapouite/helicopter.svg'
+            '/delapouite/life-buoy.svg'
         ]
     },
     {
@@ -203,11 +158,7 @@ export const GOALS: IIdea[] = [
             '/delapouite/water-bottle.svg',
             '/delapouite/life-bar.svg',
             '/lorc/wolf-howl.svg',
-            '/delapouite/opened-food-can.svg',
-            '/lorc/kindle.svg',
-            '/delapouite/stomach.svg',
-            '/delapouite/jerrycan.svg',
-            '/lorc/wolf-trap.svg'
+            '/delapouite/opened-food-can.svg'
         ]
     },
     {
@@ -219,11 +170,7 @@ export const GOALS: IIdea[] = [
             '/lorc/hammer-nails.svg',
             '/lorc/wheat.svg',
             '/delapouite/well.svg',
-            '/delapouite/factory-arm.svg',
-            '/delapouite/lovers.svg',
-            '/delapouite/stakes-fence.svg',
-            '/delapouite/village.svg',
-            '/delapouite/concrete-bag.svg'
+            '/delapouite/factory-arm.svg'
         ]
     },
     {
@@ -235,11 +182,7 @@ export const GOALS: IIdea[] = [
             '/delapouite/puzzle.svg',
             '/delapouite/spy.svg',
             '/delapouite/cctv-camera.svg',
-            '/delapouite/key-card.svg',
-            '/delapouite/valve.svg',
-            '/sbed/fall-down.svg',
-            '/delapouite/push.svg',
-            '/skoll/talk.svg'
+            '/delapouite/key-card.svg'
         ]
     }
 ];
@@ -254,11 +197,7 @@ export const THEMES: IIdea[] = [
             '/delapouite/broken-axe.svg',
             '/lorc/screaming.svg',
             '/delapouite/gps.svg',
-            '/lorc/maze.svg',
-            '/lorc/skeleton-inside.svg',
-            '/lorc/paranoia.svg',
-            '/lorc/suspicious.svg',
-            '/lorc/backstab.svg'
+            '/lorc/maze.svg'
         ]
     },
     {
@@ -270,11 +209,7 @@ export const THEMES: IIdea[] = [
             '/caro-asercion/slot-machine.svg',
             '/delapouite/coins.svg',
             '/delapouite/rolling-dice-cup.svg',
-            '/delapouite/dice-twenty-faces-one.svg',
-            '/skoll/bullseye.svg',
-            '/skoll/revolver.svg',
-            '/faithtoken/card-random.svg',
-            '/delapouite/expense.svg'
+            '/delapouite/dice-twenty-faces-one.svg'
         ]
     },
     {
@@ -286,11 +221,7 @@ export const THEMES: IIdea[] = [
             '/lorc/frankenstein-creature.svg',
             '/lorc/life-in-the-balance.svg',
             '/lorc/bleeding-wound.svg',
-            '/delapouite/devil-mask.svg',
-            '/delapouite/locked-box.svg',
-            '/lorc/imprisoned.svg',
-            '/lorc/deathcab.svg',
-            '/delapouite/half-dead.svg'
+            '/delapouite/devil-mask.svg'
         ]
     },
     {
@@ -298,15 +229,11 @@ export const THEMES: IIdea[] = [
         description: 'Having two parts, often with opposite meanings.',
         ideaType: themeType,
         icons: [
-            '/delapouite/multi-directions.svg',
             '/delapouite/toggles.svg',
             '/lorc/magnet.svg',
             '/delapouite/skills.svg',
             '/lorc/duality-mask.svg',
-            '/delapouite/yin-yang.svg',
-            '/lorc/duality.svg',
-            '/delapouite/half-dead.svg',
-            '/lorc/half-heart.svg'
+            '/delapouite/multi-directions.svg'
         ]
     },
     {
@@ -318,27 +245,7 @@ export const THEMES: IIdea[] = [
             '/delapouite/lunar-module.svg',
             '/caro-asercion/mountain-climbing.svg',
             '/lorc/journey.svg',
-            '/lorc/open-book.svg',
-            '/lorc/scroll-unfurled.svg',
-            '/delapouite/underground-cave.svg',
-            '/delapouite/hole-ladder.svg',
-            '/delapouite/iceberg.svg'
-        ]
-    },
-    {
-        ideaName: 'Extinction',
-        description: 'An extinction event is threatening all life!',
-        ideaType: themeType,
-        icons: [
-            '/lorc/mushroom-cloud.svg',
-            '/lorc/snowing.svg',
-            '/caro-asercion/sauropod-skeleton.svg',
-            '/delapouite/plague-doctor-profile.svg',
-            '/lorc/evil-moon.svg',
-            '/lorc/big-wave.svg',
-            '/delapouite/desert.svg',
-            '/lorc/meteor-impact.svg',
-            '/lorc/volcano.svg'
+            '/lorc/open-book.svg'
         ]
     },
     {
@@ -350,11 +257,7 @@ export const THEMES: IIdea[] = [
             '/lorc/dark-squad.svg',
             '/delapouite/spooky-house.svg',
             '/delapouite/alien-egg.svg',
-            '/delapouite/evil-tower.svg',
-            '/delapouite/spiked-dragon-head.svg',
-            '/lorc/spectre.svg',
-            '/lorc/terror.svg',
-            '/lorc/apple-maggot.svg'
+            '/delapouite/evil-tower.svg'
         ]
     },
     {
@@ -366,11 +269,7 @@ export const THEMES: IIdea[] = [
             '/lorc/temptation.svg',
             '/lorc/locked-chest.svg',
             '/delapouite/locked-box.svg',
-            '/lorc/locked-fortress.svg',
-            '/delapouite/locked-door.svg',
-            '/lorc/evil-book.svg',
-            '/delapouite/barrier.svg',
-            '/lorc/interdiction.svg'
+            '/lorc/locked-fortress.svg'
         ]
     },
     {
@@ -382,11 +281,7 @@ export const THEMES: IIdea[] = [
             '/delapouite/piggy-bank.svg',
             '/kier-heyl/dwarf-helmet.svg',
             '/delapouite/imperial-crown.svg',
-            '/delapouite/credits-currency.svg',
-            '/delapouite/take-my-money.svg',
-            '/lorc/snatch.svg',
-            '/delapouite/coins-pile.svg',
-            '/delapouite/planet-conquest.svg'
+            '/delapouite/credits-currency.svg'
         ]
     },
     {
@@ -398,11 +293,211 @@ export const THEMES: IIdea[] = [
             '/delapouite/family-house.svg',
             '/delapouite/fireplace.svg',
             '/delapouite/bed.svg',
-            '/priorblue/battery-plus.svg',
-            '/delapouite/bookshelf.svg',
-            '/delapouite/bathtub.svg',
-            '/delapouite/heart-shield.svg',
-            '/delapouite/wine-bottle.svg'
+            '/priorblue/battery-plus.svg'
+        ]
+    },
+    {
+        ideaName: 'Power',
+        description: 'UNLIMITED POWER!',
+        ideaType: themeType,
+        icons: [
+            '/delapouite/power-ring.svg',
+            '/lorc/power-lightning.svg',
+            '/lorc/embrassed-energy.svg',
+            '/delapouite/imperial-crown.svg',
+            '/cathelineau/annexation.svg'
+        ]
+    },
+    {
+        ideaName: 'Justice',
+        description: 'People should be treated fairly.',
+        ideaType: themeType,
+        icons: [
+            '/lorc/scales.svg',
+            '/lorc/hammer-drop.svg',
+            '/delapouite/handcuffed.svg',
+            '/delapouite/congress.svg',
+            '/delapouite/prisoner.svg'
+        ]
+    },
+    {
+        ideaName: 'Life & Death',
+        description: 'Make life what you make it.',
+        ideaType: themeType,
+        icons: [
+            '/delapouite/baby-face.svg',
+            '/delapouite/ages.svg',
+            '/delapouite/family-tree.svg',
+            '/delapouite/person-in-bed.svg',
+            '/delapouite/graveyard.svg'
+        ]
+    },
+    {
+        ideaName: 'Loyalty',
+        description: 'Devotion to a particular person, duty, or cause.',
+        ideaType: themeType,
+        icons: [
+            '/lorc/crown.svg',
+            '/lorc/prayer.svg',
+            '/lorc/rally-the-troops.svg',
+            '/delapouite/three-friends.svg',
+            '/lorc/shield-reflect.svg'
+        ]
+    },
+    {
+        ideaName: 'Change',
+        description: 'Times are changing.',
+        ideaType: themeType,
+        icons: [
+            '/delapouite/pylon.svg',
+            '/delapouite/modern-city.svg',
+            '/delapouite/coronation.svg',
+            '/delapouite/conqueror.svg',
+            '/lorc/rocket-flight.svg'
+        ]
+    },
+    {
+        ideaName: 'Corruption',
+        description: 'Everybody has a price.',
+        ideaType: themeType,
+        icons: [
+            '/delapouite/receive-money.svg',
+            '/lorc/backstab.svg',
+            '/delapouite/armor-punch.svg',
+            '/delapouite/dungeon-light.svg',
+            '/delapouite/convince.svg'
+        ]
+    },
+    {
+        ideaName: 'War',
+        description: 'War never changes.',
+        ideaType: themeType,
+        icons: [
+            '/lorc/gas-mask.svg',
+            '/delapouite/planet-conquest.svg',
+            '/cathelineau/annexation.svg',
+            '/delapouite/sword-brandish.svg',
+            '/lorc/missile-swarm.svg'
+        ]
+    },
+    {
+        ideaName: 'Love',
+        description: 'Emotional bonds of passion and intimacy.',
+        ideaType: themeType,
+        icons: [
+            '/delapouite/lovers.svg',
+            '/delapouite/love-letter.svg',
+            '/lorc/cupidon-arrow.svg',
+            '/lorc/linked-rings.svg',
+            '/delapouite/cherish.svg'
+        ]
+    },
+    {
+        ideaName: 'Tradition',
+        description: 'Passed down beliefs from the previous generation.',
+        ideaType: themeType,
+        icons: [
+            '/lorc/firework-rocket.svg',
+            '/delapouite/present.svg',
+            '/delapouite/coronation.svg',
+            '/delapouite/chef-toque.svg',
+            '/delapouite/cavalry.svg'
+        ]
+    },
+    {
+        ideaName: 'Family',
+        description: "It's all about the family.",
+        ideaType: themeType,
+        icons: [
+            '/delapouite/family-tree.svg',
+            '/delapouite/three-friends.svg',
+            '/delapouite/griffin-shield.svg',
+            '/delapouite/dagger-rose.svg',
+            '/delapouite/family-house.svg'
+        ]
+    },
+    {
+        ideaName: 'Coming of Age',
+        description: 'Growing up into adulthood.',
+        ideaType: themeType,
+        icons: [
+            '/delapouite/suitcase.svg',
+            '/delapouite/id-card.svg',
+            '/delapouite/family-house.svg',
+            '/delapouite/baby-bottle.svg',
+            '/delapouite/money-stack.svg'
+        ]
+    },
+    {
+        ideaName: 'Revenge',
+        description: 'Getting back at those that wronged you.',
+        ideaType: themeType,
+        icons: [
+            '/lorc/backstab.svg',
+            '/lorc/imprisoned.svg',
+            '/lorc/sword-clash.svg',
+            '/lorc/cloak-dagger.svg',
+            '/lorc/gunshot.svg'
+        ]
+    },
+    {
+        ideaName: 'Discovery',
+        description: 'What is beyond what we know?',
+        ideaType: themeType,
+        icons: [
+            '/delapouite/mountain-road.svg',
+            '/delapouite/space-shuttle.svg',
+            '/delapouite/iceberg.svg',
+            '/caro-asercion/tesla-coil.svg',
+            '/delapouite/underground-cave.svg'
+        ]
+    },
+    {
+        ideaName: 'Adaptation',
+        description: 'To become better suited towards your environment.',
+        ideaType: themeType,
+        icons: [
+            '/lorc/snowing.svg',
+            '/delapouite/desert-camp.svg',
+            '/lorc/wheat.svg',
+            '/delapouite/flood.svg',
+            '/lorc/quicksand.svg'
+        ]
+    },
+    {
+        ideaName: 'Savage Wilds',
+        description: 'The untamed wilderness is actually very dangerous.',
+        ideaType: themeType,
+        icons: [
+            '/lorc/werewolf.svg',
+            '/lorc/sea-serpent.svg',
+            '/lorc/quicksand.svg',
+            '/delapouite/carnivorous-plant.svg',
+            '/delapouite/ceiling-barnacle.svg'
+        ]
+    },
+    {
+        ideaName: 'Duplication',
+        description: 'Creating a copy of oneself.',
+        ideaType: themeType,
+        icons: [
+            '/lorc/virus.svg',
+            '/lorc/tumor.svg',
+            '/delapouite/team-downgrade.svg',
+            '/lorc/teleport.svg',
+            '/lorc/trade.svg'
+        ]
+    },
+    {
+        ideaName: 'Fate',
+        description: 'It was predetermined that you would get this theme.',
+        ideaType: themeType,
+        icons: [
+            '/delapouite/sword-altar.svg',
+            '/delapouite/coronation.svg',
+            '/delapouite/ring.svg',
+            '/caro-asercion/cootie-catcher.svg',
+            '/delapouite/sinking-ship.svg'
         ]
     }
 ];
@@ -417,11 +512,19 @@ export const SETTINGS: IIdea[] = [
             '/skoll/f1-car.svg',
             '/delapouite/island.svg',
             '/delapouite/sunglasses.svg',
-            '/delapouite/audio-cassette.svg',
-            '/delapouite/striped-sun.svg',
-            '/delapouite/full-motorcycle-helmet.svg',
-            '/delapouite/gear-stick-pattern.svg',
-            '/lorc/mesh-ball.svg'
+            '/delapouite/audio-cassette.svg'
+        ]
+    },
+    {
+        ideaName: 'Extinction',
+        description: 'An extinction event is threatening all life!',
+        ideaType: settingType,
+        icons: [
+            '/lorc/mushroom-cloud.svg',
+            '/lorc/snowing.svg',
+            '/caro-asercion/sauropod-skeleton.svg',
+            '/delapouite/plague-doctor-profile.svg',
+            '/lorc/evil-moon.svg'
         ]
     },
     {
@@ -433,15 +536,23 @@ export const SETTINGS: IIdea[] = [
             '/delapouite/nefertiti.svg',
             '/delapouite/egyptian-pyramids.svg',
             '/delapouite/bastet.svg',
-            '/delapouite/cleopatra.svg',
-            '/delapouite/pharoah.svg',
-            '/delapouite/egyptian-sphinx.svg',
-            '/delapouite/horus.svg',
-            '/delapouite/anubis.svg'
+            '/delapouite/cleopatra.svg'
         ]
     },
     {
-        ideaName: 'Post-Apocalypse',
+        ideaName: 'Another Dimension',
+        description: 'Existing in a different dimension than your own.',
+        ideaType: settingType,
+        icons: [
+            '/delapouite/heaven-gate.svg',
+            '/lorc/magic-gate.svg',
+            '/lorc/ghost.svg',
+            '/lorc/processor.svg',
+            '/lorc/flaming-trident.svg'
+        ]
+    },
+    {
+        ideaName: 'Post-Apocalyptic',
         description: "The world has already ended, and you're stuck in it.",
         ideaType: settingType,
         icons: [
@@ -449,27 +560,19 @@ export const SETTINGS: IIdea[] = [
             '/delapouite/heart-armor.svg',
             '/delapouite/robber.svg',
             '/delapouite/stomach.svg',
-            '/delapouite/slipknot.svg',
-            '/lorc/cobweb.svg',
-            '/delapouite/water-flask.svg',
-            '/delapouite/desert-camp.svg',
-            '/lorc/backstab.svg'
+            '/delapouite/slipknot.svg'
         ]
     },
     {
         ideaName: 'Mythic',
-        description: "Hellenic era with magical creatures and great heroes.",
+        description: "Filled with magical creatures, walking gods, and great heroes.",
         ideaType: settingType,
         icons: [
             '/delapouite/coliseum.svg',
             '/lorc/hydra.svg',
             '/caro-asercion/philosopher-bust.svg',
             '/delapouite/roman-toga.svg',
-            '/delapouite/caesar.svg',
-            '/delapouite/aqueduct.svg',
-            '/delapouite/spartan-helmet.svg',
-            '/cathelineau/chariot.svg',
-            '/delapouite/centaur.svg'
+            '/delapouite/caesar.svg'
         ]
     },
     {
@@ -481,27 +584,19 @@ export const SETTINGS: IIdea[] = [
             '/delapouite/caravel.svg',
             '/delapouite/stakes-fence.svg',
             '/delapouite/cornucopia.svg',
-            '/skoll/musket.svg',
-            '/delapouite/war-bonnet.svg',
-            '/delapouite/village.svg',
-            '/delapouite/pilgrim-hat.svg',
-            '/delapouite/wood-cabin.svg'
+            '/skoll/musket.svg'
         ]
     },
     {
         ideaName: 'Horror',
-        description: "Fear of the unknown is a powerful thing.",
+        description: "Fear the unknown.",
         ideaType: settingType,
         icons: [
             '/lorc/paranoia.svg',
             '/lorc/evil-comet.svg',
             '/lorc/alien-skull.svg',
             '/delapouite/fish-monster.svg',
-            '/lorc/evil-book.svg',
-            '/lorc/sacrificial-dagger.svg',
-            '/delapouite/brain-tentacle.svg',
-            '/lorc/robe.svg',
-            '/lorc/infested-mass.svg'
+            '/lorc/evil-book.svg'
         ]
     },
     {
@@ -513,11 +608,7 @@ export const SETTINGS: IIdea[] = [
             '/lorc/handcuffs.svg',
             '/delapouite/mug-shot.svg',
             '/delapouite/cigarette.svg',
-            '/delapouite/finger-print.svg',
-            '/delapouite/chalk-outline-murder.svg',
-            '/delapouite/robber-mask.svg',
-            '/delapouite/police-car.svg',
-            '/delapouite/sherlock-holmes.svg'
+            '/delapouite/finger-print.svg'
         ]
     },
     {
@@ -529,27 +620,19 @@ export const SETTINGS: IIdea[] = [
             '/delapouite/fire-spell-cast.svg',
             '/lorc/wing-cloak.svg',
             '/lorc/evil-fork.svg',
-            '/caro-asercion/round-potion.svg',
-            '/delapouite/orc-head.svg',
-            '/lorc/haunting.svg',
-            '/delapouite/deku-tree.svg',
-            '/delapouite/fairy.svg'
+            '/caro-asercion/round-potion.svg'
         ]
     },
     {
-        ideaName: 'Japanese',
-        description: "Follow the path of the samurai.",
+        ideaName: 'Feudal Japan',
+        description: "Back during the time of the samurai.",
         ideaType: settingType,
         icons: [
             '/delapouite/bamboo-fountain.svg',
             '/delapouite/kimono.svg',
             '/delapouite/samurai-helmet.svg',
             '/delapouite/teapot-leaves.svg',
-            '/lorc/meditation.svg',
-            '/delapouite/katana.svg',
-            '/darkzaitzev/running-ninja.svg',
-            '/delapouite/bonsai-tree.svg',
-            '/delapouite/shinto-shrine.svg'
+            '/lorc/meditation.svg'
         ]
     },
     {
@@ -561,11 +644,7 @@ export const SETTINGS: IIdea[] = [
             '/delapouite/uprising.svg',
             '/caro-asercion/frog-mouth-helm.svg',
             '/skoll/mounted-knight.svg',
-            '/lorc/arrow-flights.svg',
-            '/delapouite/castle.svg',
-            '/lorc/cash.svg',
-            '/delapouite/blacksmith.svg',
-            '/lorc/sword-in-stone.svg'
+            '/lorc/arrow-flights.svg'
         ]
     },
     {
@@ -577,11 +656,7 @@ export const SETTINGS: IIdea[] = [
             '/delapouite/commercial-airplane.svg',
             '/skoll/mp5.svg',
             '/delapouite/smartphone.svg',
-            '/delapouite/delivery-drone.svg',
-            '/delapouite/gas-pump.svg',
-            '/lorc/battle-tank.svg',
-            '/delapouite/city-car.svg',
-            '/lorc/light-bulb.svg'
+            '/delapouite/delivery-drone.svg'
         ]
     },
     {
@@ -593,11 +668,7 @@ export const SETTINGS: IIdea[] = [
             '/delapouite/eyepatch.svg',
             '/lorc/treasure-map.svg',
             '/delapouite/ship-wheel.svg',
-            '/lorc/crossed-sabres.svg',
-            '/delapouite/crow-nest.svg',
-            '/delapouite/pirate-cannon.svg',
-            '/lorc/parrot-head.svg',
-            '/lorc/galleon.svg'
+            '/lorc/crossed-sabres.svg'
         ]
     },
     {
@@ -609,11 +680,7 @@ export const SETTINGS: IIdea[] = [
             '/lorc/ray-gun.svg',
             '/lorc/bubble-field.svg',
             '/delapouite/star-gate.svg',
-            '/lorc/missile-mech.svg',
-            '/delapouite/cyborg-face.svg',
-            '/delapouite/robot-antennas.svg',
-            '/delapouite/backward-time.svg',
-            '/delapouite/alien-bug.svg'
+            '/lorc/missile-mech.svg'
         ]
     },
     {
@@ -625,15 +692,11 @@ export const SETTINGS: IIdea[] = [
             '/lorc/burning-meteor.svg',
             '/delapouite/astronaut-helmet.svg',
             '/lorc/star-swirl.svg',
-            '/delapouite/rocket-thruster.svg',
-            '/delapouite/asteroid.svg',
-            '/delapouite/habitat-dome.svg',
-            '/delapouite/mars-curiosity.svg',
-            '/delapouite/defense-satellite.svg'
+            '/delapouite/rocket-thruster.svg'
         ]
     },
     {
-        ideaName: 'Steampunk',
+        ideaName: 'Steampowered',
         description: "What if everything was powered by steam?",
         ideaType: settingType,
         icons: [
@@ -641,11 +704,7 @@ export const SETTINGS: IIdea[] = [
             '/delapouite/corset.svg',
             '/cathelineau/iron-hulled-warship.svg',
             '/delapouite/pipes.svg',
-            '/delapouite/steampunk-goggles.svg',
-            '/delapouite/steam-locomotive.svg',
-            '/skoll/zeppelin.svg',
-            '/lorc/top-hat.svg',
-            '/lorc/gears.svg'
+            '/delapouite/steampunk-goggles.svg'
         ]
     },
     {
@@ -657,11 +716,7 @@ export const SETTINGS: IIdea[] = [
             '/lorc/hunting-horn.svg',
             '/delapouite/sverd-i-fjell.svg',
             '/delapouite/giant.svg',
-            '/lorc/rune-sword.svg',
-            '/lorc/rune-stone.svg',
-            '/delapouite/drakkar.svg',
-            '/delapouite/viking-longhouse.svg',
-            '/delapouite/thor-hammer.svg'
+            '/lorc/rune-sword.svg'
         ]
     },
     {
@@ -673,11 +728,7 @@ export const SETTINGS: IIdea[] = [
             '/delapouite/saddle.svg',
             '/delapouite/cowboy-boot.svg',
             '/delapouite/saloon-doors.svg',
-            '/delapouite/wanted-reward.svg',
-            '/delapouite/booze.svg',
-            '/skoll/winchester-rifle.svg',
-            '/delapouite/old-wagon.svg',
-            '/delapouite/war-bonnet.svg'
+            '/delapouite/wanted-reward.svg'
         ]
     },
     {
@@ -689,11 +740,7 @@ export const SETTINGS: IIdea[] = [
             '/quoting/lost-limb.svg',
             '/skoll/raise-zombie.svg',
             '/delapouite/half-body-crawling.svg',
-            '/delapouite/shambling-zombie.svg',
-            '/delapouite/skull-staff.svg',
-            '/lorc/deathcab.svg',
-            '/lorc/cultist.svg',
-            '/lorc/virus.svg'
+            '/delapouite/shambling-zombie.svg'
         ]
     }
 ];
@@ -708,11 +755,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/finish-line.svg',
             '/delapouite/joystick.svg',
             '/delapouite/alien-bug.svg',
-            '/delapouite/sonic-shoes.svg',
-            '/lorc/super-mushroom.svg',
-            '/delapouite/pinball-flipper.svg',
-            '/delapouite/asteroid.svg',
-            '/delapouite/ufo.svg'
+            '/delapouite/sonic-shoes.svg'
         ]
     },
     {
@@ -724,11 +767,7 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/return-arrow.svg',
             '/delapouite/player-previous.svg',
             '/delapouite/backward-time.svg',
-            '/lorc/corner-explosion.svg',
-            '/lorc/broken-shield.svg',
-            '/delapouite/clockwise-rotation.svg',
-            '/delapouite/open-gate.svg',
-            '/lorc/lever.svg'
+            '/lorc/corner-explosion.svg'
         ]
     },
     {
@@ -740,11 +779,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/binoculars.svg',
             '/lorc/spiky-eclipse.svg',
             '/delapouite/greek-sphinx.svg',
-            '/delapouite/saint-basil-cathedral.svg',
-            '/delapouite/castle.svg',
-            '/delapouite/forest.svg',
-            '/lorc/peaks.svg',
-            '/delapouite/boat-horizon.svg'
+            '/delapouite/saint-basil-cathedral.svg'
         ]
     },
     {
@@ -756,11 +791,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/giant.svg',
             '/delapouite/mighty-force.svg',
             '/lorc/third-eye.svg',
-            '/delapouite/push.svg',
-            '/lorc/sprint.svg',
-            '/lorc/lift.svg',
-            '/lorc/psychic-waves.svg',
-            '/delapouite/invisible.svg'
+            '/delapouite/push.svg'
         ]
     },
     {
@@ -772,11 +803,7 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/gems.svg',
             '/delapouite/trophies-shelf.svg',
             '/delapouite/stars-stack.svg',
-            '/delapouite/bug-net.svg',
-            '/lorc/crown-coin.svg',
-            '/skoll/cement-shoes.svg',
-            '/delapouite/aquarium.svg',
-            '/lorc/spiral-shell.svg'
+            '/delapouite/bug-net.svg'
         ]
     },
     {
@@ -788,11 +815,7 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/paw-heart.svg',
             '/delapouite/three-friends.svg',
             '/delapouite/companion-cube.svg',
-            '/lorc/surrounded-shield.svg',
-            '/lorc/rally-the-troops.svg',
-            '/lorc/all-for-one.svg',
-            '/delapouite/healing.svg',
-            '/lorc/pointing.svg'
+            '/lorc/surrounded-shield.svg'
         ]
     },
     {
@@ -804,11 +827,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/eating.svg',
             '/delapouite/noodles.svg',
             '/delapouite/camp-cooking-pot.svg',
-            '/delapouite/coffee-cup.svg',
-            '/delapouite/marshmallows.svg',
-            '/delapouite/sandwich.svg',
-            '/lorc/pie-slice.svg',
-            '/darkzaitzev/fish-cooked.svg'
+            '/delapouite/coffee-cup.svg'
         ]
     },
     {
@@ -820,11 +839,7 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/sword-smithing.svg',
             '/caro-asercion/sewing-machine.svg',
             '/delapouite/mechanic-garage.svg',
-            '/lorc/stone-crafting.svg',
-            '/heavenly-dog/defensive-wall.svg',
-            '/lorc/mailed-fist.svg',
-            '/delapouite/crafting.svg',
-            '/delapouite/wooden-pier.svg'
+            '/lorc/stone-crafting.svg'
         ]
     },
     {
@@ -836,11 +851,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/banknote.svg',
             '/lorc/gems.svg',
             '/delapouite/receive-money.svg',
-            '/delapouite/nano-bot.svg',
-            '/lorc/screw.svg',
-            '/lorc/bullets.svg',
-            '/delapouite/water-gallon.svg',
-            '/delapouite/bottle-cap.svg',
+            '/delapouite/nano-bot.svg'
         ]
     },
     {
@@ -852,11 +863,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/nose-side.svg',
             '/delapouite/paint-bucket.svg',
             '/delapouite/cyber-eye.svg',
-            '/delapouite/switch-weapon.svg',
-            '/delapouite/steering-wheel.svg',
-            '/delapouite/mustache.svg',
-            '/delapouite/leapfrog.svg',
-            '/lorc/trousers.svg'
+            '/delapouite/switch-weapon.svg'
         ]
     },
     {
@@ -868,11 +875,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/hammer-break.svg',
             '/delapouite/castle-ruins.svg',
             '/delapouite/falling-rocks.svg',
-            '/quoting/damaged-house.svg',
-            '/delapouite/ancient-ruins.svg',
-            '/skoll/breaking-chain.svg',
-            '/lorc/crumbling-ball.svg',
-            '/lorc/bright-explosion.svg'
+            '/quoting/damaged-house.svg'
         ]
     },
     {
@@ -884,11 +887,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/binoculars.svg',
             '/delapouite/life-bar.svg',
             '/delapouite/speedometer.svg',
-            '/lorc/folded-paper.svg',
-            '/delapouite/watch.svg',
-            '/skoll/talk.svg',
-            '/delapouite/reload-gun-barrel.svg',
-            '/lorc/compass.svg'
+            '/lorc/folded-paper.svg'
         ]
     },
     {
@@ -900,11 +899,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/plane-wing.svg',
             '/lorc/magic-portal.svg',
             '/caro-asercion/subway-train.svg',
-            '/delapouite/truck.svg',
-            '/lorc/teleport.svg',
-            '/delapouite/elephant.svg',
-            '/delapouite/elevator.svg',
-            '/caro-asercion/bus-stop.svg'
+            '/delapouite/truck.svg'
         ]
     },
     {
@@ -916,11 +911,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/fishing-lure.svg',
             '/delapouite/shark-bite.svg',
             '/delapouite/spearfishing.svg',
-            '/lorc/fishing-net.svg',
-            '/lorc/triton-head.svg',
-            '/various-artists/salmon.svg',
-            '/delapouite/fishing-pole.svg',
-            '/lorc/food-chain.svg'
+            '/lorc/fishing-net.svg'
         ]
     },
     {
@@ -932,11 +923,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/lighthouse.svg',
             '/skoll/sight-disabled.svg',
             '/skoll/evil-eyes.svg',
-            '/delapouite/fog.svg',
-            '/delapouite/street-light.svg',
-            '/lorc/monster-grasp.svg',
-            '/delapouite/flashlight.svg',
-            '/delapouite/tightrope.svg'
+            '/delapouite/fog.svg'
         ]
     },
     {
@@ -948,11 +935,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/upgrade.svg',
             '/delapouite/family-house.svg',
             '/darkzaitzev/acrobatic.svg',
-            '/lorc/sprint.svg',
-            '/delapouite/team-upgrade.svg',
-            '/lorc/muscle-up.svg',
-            '/delapouite/police-target.svg',
-            '/lorc/brain.svg'
+            '/lorc/sprint.svg'
         ]
     },
     {
@@ -964,11 +947,7 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/big-wave.svg',
             '/lorc/paranoia.svg',
             '/lorc/stomp.svg',
-            '/lorc/dinosaur-rex.svg',
-            '/delapouite/giant-squid.svg',
-            '/delapouite/kraken-tentacle.svg',
-            '/delapouite/iceberg.svg',
-            '/delapouite/koholint-egg.svg'
+            '/lorc/dinosaur-rex.svg'
         ]
     },
     {
@@ -980,11 +959,7 @@ export const WILDCARDS: IIdea[] = [
             '/sbed/weight-crush.svg',
             '/delapouite/backpack.svg',
             '/delapouite/suitcase.svg',
-            '/delapouite/opened-food-can.svg',
-            '/delapouite/water-flask.svg',
-            '/lorc/recycle.svg',
-            '/delapouite/machine-gun-magazine.svg',
-            '/lorc/trade.svg'
+            '/delapouite/opened-food-can.svg'
         ]
     },
     {
@@ -996,11 +971,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/swiss-army-knife.svg',
             '/lorc/whip.svg',
             '/lorc/hammer-nails.svg',
-            '/delapouite/chainsaw.svg',
-            '/delapouite/switch-weapon.svg',
-            '/lorc/bouncing-sword.svg',
-            '/delapouite/armored-boomerang.svg',
-            '/delapouite/crowbar.svg'
+            '/delapouite/chainsaw.svg'
         ]
     },
     {
@@ -1012,11 +983,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/silenced.svg',
             '/delapouite/mute.svg',
             '/delapouite/secret-book.svg',
-            '/lorc/inner-self.svg',
-            '/lorc/swan-breeze.svg',
-            '/lorc/silence.svg',
-            '/caro-asercion/birch-trees.svg',
-            '/caro-asercion/windchimes.svg'
+            '/lorc/inner-self.svg'
         ]
     },
     {
@@ -1028,11 +995,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/skills.svg',
             '/delapouite/discussion.svg',
             '/delapouite/passport.svg',
-            '/delapouite/notebook.svg',
-            '/caro-asercion/boarding-pass.svg',
-            '/delapouite/mug-shot.svg',
-            '/caro-asercion/subway-pass.svg',
-            '/delapouite/morgue-feet.svg'
+            '/delapouite/notebook.svg'
         ]
     },
     {
@@ -1044,11 +1007,7 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/divergence.svg',
             '/delapouite/target-prize.svg',
             '/skoll/open-treasure-chest.svg',
-            '/delapouite/magic-axe.svg',
-            '/delapouite/puzzle.svg',
-            '/lorc/lightning-bow.svg',
-            '/lorc/strong.svg',
-            '/delapouite/upgrade.svg'
+            '/delapouite/magic-axe.svg'
         ]
     },
     {
@@ -1060,11 +1019,7 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/internal-injury.svg',
             '/lorc/internal-organ.svg',
             '/quoting/lost-limb.svg',
-            '/lorc/life-in-the-balance.svg',
-            '/lorc/body-swapping.svg',
-            '/delapouite/life-bar.svg',
-            '/lorc/decapitation.svg',
-            '/delapouite/healing.svg'
+            '/lorc/life-in-the-balance.svg'
         ]
     },
     {
@@ -1076,11 +1031,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/stump-regrowth.svg',
             '/delapouite/ancient-ruins.svg',
             '/lorc/raining.svg',
-            '/lorc/recycle.svg',
-            '/delapouite/river.svg',
-            '/lorc/dinosaur-bones.svg',
-            '/delapouite/plant-roots.svg',
-            '/lorc/fossil.svg'
+            '/lorc/recycle.svg'
         ]
     },
     {
@@ -1092,11 +1043,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/three-friends.svg',
             '/lorc/rally-the-troops.svg',
             '/lorc/minions.svg',
-            '/delapouite/hand-of-god.svg',
-            '/lorc/divergence.svg',
-            '/delapouite/round-table.svg',
-            '/delapouite/school-of-fish.svg',
-            '/delapouite/team-downgrade.svg'
+            '/delapouite/hand-of-god.svg'
         ]
     },
     {
@@ -1108,11 +1055,7 @@ export const WILDCARDS: IIdea[] = [
             '/john-colburn/pistol-gun.svg',
             '/delapouite/stone-bust.svg',
             '/lorc/pumpkin-lantern.svg',
-            '/lorc/rock.svg',
-            '/delapouite/sunflower.svg',
-            '/delapouite/katana.svg',
-            '/lorc/wooden-door.svg',
-            '/delapouite/deku-tree.svg'
+            '/lorc/rock.svg'
         ]
     },
     {
@@ -1124,11 +1067,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/toggles.svg',
             '/delapouite/hamburger-menu.svg',
             '/delapouite/exit-door.svg',
-            '/delapouite/move.svg',
-            '/lorc/magic-portal.svg',
-            '/delapouite/settings-knobs.svg',
-            '/delapouite/laptop.svg',
-            '/skoll/retro-controller.svg'
+            '/delapouite/move.svg'
         ]
     },
     {
@@ -1140,11 +1079,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/shield-impact.svg',
             '/delapouite/healing.svg',
             '/delapouite/speedometer.svg',
-            '/lorc/boots.svg',
-            '/delapouite/strong-man.svg',
-            '/lorc/grapple.svg',
-            '/lorc/feather.svg',
-            '/lorc/super-mushroom.svg'
+            '/lorc/boots.svg'
         ]
     },
     {
@@ -1156,11 +1091,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/skills.svg',
             '/delapouite/rolling-dices.svg',
             '/delapouite/rule-book.svg',
-            '/lorc/cubes.svg',
-            '/delapouite/crossroad.svg',
-            '/lorc/divergence.svg',
-            '/delapouite/floating-platforms.svg',
-            '/delapouite/palette.svg'
+            '/lorc/cubes.svg'
         ]
     },
     {
@@ -1172,11 +1103,7 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/grapes.svg',
             '/delapouite/3d-stairs.svg',
             '/delapouite/throwing-ball.svg',
-            '/delapouite/photo-camera.svg',
-            '/delapouite/calendar.svg',
-            '/delapouite/windmill.svg',
-            '/lorc/wind-slap.svg',
-            '/lorc/coffee-mug.svg'
+            '/delapouite/photo-camera.svg'
         ]
     },
     {
@@ -1188,11 +1115,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/tree-growth.svg',
             '/delapouite/camp-cooking-pot.svg',
             '/delapouite/player-time.svg',
-            '/delapouite/finish-line.svg',
-            '/delapouite/night-sleep.svg',
-            '/delapouite/ages.svg',
-            '/lorc/orbital.svg',
-            '/lorc/snowing.svg'
+            '/delapouite/finish-line.svg'
         ]
     },
     {
@@ -1204,11 +1127,7 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/sinking-trap.svg',
             '/lorc/wolf-trap.svg',
             '/delapouite/metal-detector.svg',
-            '/lorc/land-mine.svg',
-            '/delapouite/secret-door.svg',
-            '/lorc/hidden.svg',
-            '/delapouite/lock-spy.svg',
-            '/delapouite/secret-book.svg'
+            '/lorc/land-mine.svg'
         ]
     },
     {
@@ -1220,11 +1139,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/open-gate.svg',
             '/delapouite/exit-door.svg',
             '/delapouite/dig-hole.svg',
-            '/delapouite/trail.svg',
-            '/lorc/magic-gate.svg',
-            '/delapouite/path-distance.svg',
-            '/delapouite/secret-door.svg',
-            '/delapouite/dungeon-gate.svg'
+            '/delapouite/trail.svg'
         ]
     },
     {
@@ -1236,15 +1151,11 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/entry-door.svg',
             '/delapouite/theater-curtains.svg',
             '/lorc/drama-masks.svg',
-            '/delapouite/video-conference.svg',
-            '/delapouite/button-finger.svg',
-            '/delapouite/fast-forward-button.svg',
-            '/viscious-speed/abstract-062.svg',
-            '/skoll/sound-waves.svg'
+            '/delapouite/video-conference.svg'
         ]
     },
     {
-        ideaName: 'Stalker',
+        ideaName: 'Follower',
         description: "Someone or something is following you.",
         ideaType: wildcardType,
         icons: [
@@ -1252,11 +1163,7 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/paranoia.svg',
             '/lorc/shadow-follower.svg',
             '/skoll/footsteps.svg',
-            '/lorc/werewolf.svg',
-            '/lorc/run.svg',
-            '/delapouite/tiger-head.svg',
-            '/delapouite/human-target.svg',
-            '/delapouite/sniffing-dog.svg'
+            '/lorc/hound.svg'
         ]
     },
     {
@@ -1268,11 +1175,7 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/conversation.svg',
             '/lorc/checkbox-tree.svg',
             '/lorc/shouting.svg',
-            '/lorc/divergence.svg',
-            '/delapouite/walkie-talkie.svg',
-            '/lorc/parrot-head.svg',
-            '/delapouite/convince.svg',
-            '/delapouite/team-idea.svg'
+            '/lorc/divergence.svg'
         ]
     },
     {
@@ -1284,11 +1187,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/take-my-money.svg',
             '/delapouite/three-friends.svg',
             '/delapouite/hot-meal.svg',
-            '/delapouite/dart.svg',
-            '/lorc/love-injection.svg',
-            '/caro-asercion/prank-glasses.svg',
-            '/lorc/cut-palm.svg',
-            '/delapouite/honey-jar.svg'
+            '/delapouite/dart.svg'
         ]
     },
     {
@@ -1300,11 +1199,7 @@ export const WILDCARDS: IIdea[] = [
             '/skoll/read.svg',
             '/delapouite/coffee-cup.svg',
             '/delapouite/sleeping-bag.svg',
-            '/lorc/campfire.svg',
-            '/delapouite/tv-remote.svg',
-            '/delapouite/sofa.svg',
-            '/lorc/meditation.svg',
-            '/delapouite/alarm-clock.svg'
+            '/lorc/campfire.svg'
         ]
     },
     {
@@ -1316,11 +1211,55 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/snowing.svg',
             '/lorc/lightning-tree.svg',
             '/lorc/earth-spit.svg',
-            '/lorc/wave-crest.svg',
-            '/lorc/tornado.svg',
-            '/lorc/volcano.svg',
-            '/delapouite/sandstorm.svg',
-            '/lorc/flower-twirl.svg'
+            '/lorc/wave-crest.svg'
+        ]
+    },
+    {
+        ideaName: 'Water',
+        description: "Interactable water in some form or another.",
+        ideaType: wildcardType,
+        icons: [
+            '/lorc/raining.svg',
+            '/delapouite/water-bottle.svg',
+            '/lorc/water-splash.svg',
+            '/lorc/drowning.svg',
+            '/lorc/wave-crest.svg'
+        ]
+    },
+    {
+        ideaName: 'Nonviolent',
+        description: "No one is physically harming eachother.",
+        ideaType: wildcardType,
+        icons: [
+            '/skoll/talk.svg',
+            '/delapouite/hiking.svg',
+            '/delapouite/farmer.svg',
+            '/delapouite/stork-delivery.svg',
+            '/lorc/portal.svg'
+        ]
+    },
+    {
+        ideaName: 'Nighttime',
+        description: "It was a dark a stormy night...",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/night-sky.svg',
+            '/delapouite/flashlight.svg',
+            '/lorc/wolf-howl.svg',
+            '/lorc/campfire.svg',
+            '/lorc/evil-moon.svg'
+        ]
+    },
+    {
+        ideaName: 'Tropes',
+        description: "Include one of your favorite tropes!",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/elevator.svg',
+            '/delapouite/lovers.svg',
+            '/delapouite/hand-of-god.svg',
+            '/lorc/minions.svg',
+            '/lorc/angel-outfit.svg'
         ]
     }
 ];
