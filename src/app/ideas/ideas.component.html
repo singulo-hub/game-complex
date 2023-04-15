@@ -1,8 +1,0 @@
-<div class="ideas-container">
-    <h2 [style.color]="ideaType.iconColor">{{ideaType.typeName| uppercase}}</h2>
-    <ul>
-        <li *ngFor="let idea of this.activeIdeas; index as i" class="idea-container">
-            <idea [idea]="idea" [index]="i" (onClicked)="dropIdea($event)" (onLocked)="lockIdea($event)"></idea>
-        </li>
-    </ul>
-</div>
