@@ -1,24 +1,23 @@
 .randomize-button {
     margin: 1vmax auto;
     position: relative;
-    color: white;
     background-color: transparent;
     border: 0;
     font-family: enter-command-bold;
     font-size: calc(32px + 0.5vmax);
     padding: 0;
     width: 100%;
+    cursor: pointer;
 
     .title {
-        color: white;
         text-align: center;
         margin: 0;
     }
-    
     .subtitle {
-        color: white;
         text-align: center;
-        opacity: 0.5;
+        margin: 0;
+    }
+    .randomize {
         margin: 0;
     }
 }
@@ -40,4 +39,23 @@
 ideas {
     flex-grow: 1;
     margin: 0 0 1vmax 0;
+}
+
+footer {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    text-align: center;
+    
+    p {
+        margin: 0;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
 }
