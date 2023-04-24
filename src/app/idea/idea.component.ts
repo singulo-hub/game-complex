@@ -27,15 +27,11 @@ import { BehaviorSubject } from 'rxjs';
 })
 
 export class IdeaComponent implements AfterViewInit{
-  @Input()
-  idea: IIdea = IDEA;
-  @Input()
-  index: number = 0;
+  @Input() idea: IIdea = IDEA;
+  @Input() index: number = 0;
 
-  @Output()
-  onClicked = new EventEmitter<number>();
-  @Output()
-  onLocked = new EventEmitter<number>();
+  @Output() onClicked = new EventEmitter<number>();
+  @Output() onLocked = new EventEmitter<number>();
   
   @ViewChild('firstIcon') firstIcon: ElementRef | undefined;
   @ViewChild('secondIcon') secondIcon: ElementRef | undefined;

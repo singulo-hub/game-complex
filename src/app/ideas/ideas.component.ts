@@ -12,12 +12,9 @@ import { IIdeaType } from '../models/idea-type';
   styleUrls: ['./ideas.component.less']
 })
 export class IdeasComponent implements OnInit {
-  @Input()
-  ideaType: IIdeaType = goalType;
-  @Input()
-  amount: number = 1;
-  @Input()
-  randomizeEvent: Observable<void> | undefined;
+  @Input() ideaType: IIdeaType = goalType;
+  @Input() amount: number = 1;
+  @Input() randomizeEvent: Observable<void> | undefined;
 
   ideas: IIdea[] = [];
   activeIdeas: IIdea[] = [];

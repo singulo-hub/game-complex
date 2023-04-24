@@ -17,177 +17,19 @@ export const IDEA: IIdea =
     ideaType: goalType
 };
 
-export const GOALS: IIdea[] = [
-    {
-        ideaName: 'Collect',
-        description: 'Complete your collection!',
-        ideaType: goalType,
-        icons: [
-            '/delapouite/butterfly-flower.svg',
-            '/delapouite/medallist.svg',
-            '/lorc/dozen.svg',
-            '/delapouite/spell-book.svg',
-            '/delapouite/coins-pile.svg'
-        ]
-    },
-    {
-        ideaName: 'Avoid',
-        description: "Someone wants to avoid something.",
-        ideaType: goalType,
-        icons: [
-            '/felbrigg/dodge.svg',
-            '/delapouite/boulder-dash.svg',
-            '/lorc/dinosaur-rex.svg',
-            '/delapouite/detour.svg',
-            '/lorc/tripwire.svg'
-        ]
-    },
-    {
-        ideaName: 'Build',
-        description: "It's cool because you made it.",
-        ideaType: goalType,
-        icons: [
-            '/lorc/dozen.svg',
-            '/delapouite/crane.svg',
-            '/delapouite/concrete-bag.svg',
-            '/lorc/tinker.svg',
-            '/caro-asercion/paper-crane.svg'
-        ]
-    },
-    {
-        ideaName: 'Chase',
-        description: "Everyone loves the thrill of the chase!",
-        ideaType: goalType,
-        icons: [
-            '/delapouite/speed-boat.svg',
-            '/caro-asercion/cloaked-figure-on-horseback.svg',
-            '/quoting/biplane.svg',
-            '/skoll/race-car.svg',
-            '/delapouite/deer-track.svg'
-        ]
-    },
-    {
-        ideaName: 'Conquest',
-        description: "Capturing anything by force with a valiant effort.",
-        ideaType: goalType,
-        icons: [
-            '/delapouite/flag-objective.svg',
-            '/delapouite/exploding-planet.svg',
-            '/quoting/bunker-assault.svg',
-            '/cathelineau/annexation.svg',
-            '/delapouite/trojan-horse.svg'
-        ]
-    },
-    {
-        ideaName: 'Delivery',
-        description: "Give something to someone.",
-        ideaType: goalType,
-        icons: [
-            '/delapouite/delivery-drone.svg',
-            '/lorc/galleon.svg',
-            '/delapouite/cardboard-box-closed.svg',
-            '/delapouite/mine-wagon.svg',
-            '/delapouite/cargo-ship.svg'
-        ]
-    },
-    {
-        ideaName: 'Destroy',
-        description: "Whatever is standing, it won't be for long!",
-        ideaType: goalType,
-        icons: [
-            '/skoll/carpet-bombing.svg',
-            '/lorc/demolish.svg',
-            '/lorc/pyromaniac.svg',
-            '/lorc/wrecking-ball.svg',
-            '/delapouite/hammer-break.svg'
-        ]
-    },
-    {
-        ideaName: 'Escape',
-        description: "Someone wants to leave where they are.",
-        ideaType: goalType,
-        icons: [
-            '/delapouite/forest-entrance.svg',
-            '/delapouite/cave-entrance.svg',
-            '/delapouite/evasion.svg',
-            '/delapouite/fish-escape.svg'
-        ]
-    },
-    {
-        ideaName: 'Fight',
-        description: "Someone is attacking or being attacked.",
-        ideaType: goalType,
-        icons: [
-            '/lorc/sword-clash.svg',
-            '/lorc/cannon-shot.svg',
-            '/delapouite/coliseum.svg',
-            '/skoll/knockout.svg',
-            '/lorc/internal-injury.svg'
-        ]
-    },
-    {
-        ideaName: 'Rescue',
-        description: "Someone is in trouble and needs help!",
-        ideaType: goalType,
-        icons: [
-            '/lorc/paranoia.svg',
-            '/lorc/shield-reflect.svg',
-            '/delapouite/lighthouse.svg',
-            '/lorc/angel-outfit.svg',
-            '/delapouite/life-buoy.svg'
-        ]
-    },
-    {
-        ideaName: 'Steal',
-        description: "Someone wants to take something that isn't thier's.",
-        ideaType: goalType,
-        icons: [
-            '/lorc/paranoia.svg',
-            '/lorc/shield-reflect.svg',
-            '/delapouite/lighthouse.svg',
-            '/lorc/angel-outfit.svg',
-            '/delapouite/life-buoy.svg'
-        ]
-    },
-    {
-        ideaName: 'Survive',
-        description: "Do whatever it takes to survive just one more day.",
-        ideaType: goalType,
-        icons: [
-            '/lorc/snowflake-2.svg',
-            '/delapouite/water-bottle.svg',
-            '/delapouite/life-bar.svg',
-            '/lorc/wolf-howl.svg',
-            '/delapouite/opened-food-can.svg'
-        ]
-    },
-    {
-        ideaName: 'Thrive',
-        description: "Make a new home and make it grow and prosper.",
-        ideaType: goalType,
-        icons: [
-            '/delapouite/castle.svg',
-            '/lorc/hammer-nails.svg',
-            '/lorc/wheat.svg',
-            '/delapouite/well.svg',
-            '/delapouite/factory-arm.svg'
-        ]
-    },
-    {
-        ideaName: 'Solve',
-        description: "Unravel the mystery. Complete the puzzle.",
-        ideaType: goalType,
-        icons: [
-            '/delapouite/archive-research.svg',
-            '/delapouite/puzzle.svg',
-            '/delapouite/spy.svg',
-            '/delapouite/cctv-camera.svg',
-            '/delapouite/key-card.svg'
-        ]
-    }
-];
-
 export const THEMES: IIdea[] = [
+    {
+        ideaName: 'Beauty',
+        description: 'The world is beautiful.',
+        ideaType: themeType,
+        icons: [
+            '/lorc/rainbow-star.svg',
+            '/lorc/flowers.svg',
+            '/lorc/night-sky.svg',
+            '/lorc/lightning-tree.svg',
+            '/lorc/sunrise.svg'
+        ]
+    },
     {
         ideaName: 'Betrayal',
         description: 'Someone has been betrayed!',
@@ -234,18 +76,6 @@ export const THEMES: IIdea[] = [
             '/delapouite/skills.svg',
             '/lorc/duality-mask.svg',
             '/delapouite/multi-directions.svg'
-        ]
-    },
-    {
-        ideaName: 'Exploration',
-        description: 'Discover the mysteries of the world.',
-        ideaType: themeType,
-        icons: [
-            '/lorc/treasure-map.svg',
-            '/delapouite/lunar-module.svg',
-            '/caro-asercion/mountain-climbing.svg',
-            '/lorc/journey.svg',
-            '/lorc/open-book.svg'
         ]
     },
     {
@@ -441,18 +271,6 @@ export const THEMES: IIdea[] = [
         ]
     },
     {
-        ideaName: 'Discovery',
-        description: 'What is beyond what we know?',
-        ideaType: themeType,
-        icons: [
-            '/delapouite/mountain-road.svg',
-            '/delapouite/space-shuttle.svg',
-            '/delapouite/iceberg.svg',
-            '/caro-asercion/tesla-coil.svg',
-            '/delapouite/underground-cave.svg'
-        ]
-    },
-    {
         ideaName: 'Adaptation',
         description: 'To become better suited towards your environment.',
         ideaType: themeType,
@@ -498,6 +316,308 @@ export const THEMES: IIdea[] = [
             '/delapouite/ring.svg',
             '/caro-asercion/cootie-catcher.svg',
             '/delapouite/sinking-ship.svg'
+        ]
+    }
+];
+
+export const GOALS: IIdea[] = [
+    {
+        ideaName: 'Collect',
+        description: 'Complete your collection!',
+        ideaType: goalType,
+        icons: [
+            '/lorc/holy-grail.svg',
+            '/delapouite/medallist.svg',
+            '/lorc/dozen.svg',
+            '/delapouite/spell-book.svg',
+            '/delapouite/coins-pile.svg'
+        ]
+    },
+    {
+        ideaName: 'Avoid',
+        description: "Someone wants to avoid something.",
+        ideaType: goalType,
+        icons: [
+            '/felbrigg/dodge.svg',
+            '/delapouite/boulder-dash.svg',
+            '/lorc/dinosaur-rex.svg',
+            '/delapouite/detour.svg',
+            '/lorc/tripwire.svg'
+        ]
+    },
+    {
+        ideaName: 'Build',
+        description: "It's cool because you made it.",
+        ideaType: goalType,
+        icons: [
+            '/lorc/dozen.svg',
+            '/delapouite/crane.svg',
+            '/delapouite/concrete-bag.svg',
+            '/lorc/tinker.svg',
+            '/caro-asercion/paper-crane.svg'
+        ]
+    },
+    {
+        ideaName: 'Chase',
+        description: "Everyone loves the thrill of the chase!",
+        ideaType: goalType,
+        icons: [
+            '/delapouite/speed-boat.svg',
+            '/caro-asercion/cloaked-figure-on-horseback.svg',
+            '/quoting/biplane.svg',
+            '/skoll/race-car.svg',
+            '/delapouite/deer-track.svg'
+        ]
+    },
+    {
+        ideaName: 'Conquest',
+        description: "Capturing anything by force with a valiant effort.",
+        ideaType: goalType,
+        icons: [
+            '/delapouite/flag-objective.svg',
+            '/delapouite/exploding-planet.svg',
+            '/quoting/bunker-assault.svg',
+            '/cathelineau/annexation.svg',
+            '/delapouite/trojan-horse.svg'
+        ]
+    },
+    {
+        ideaName: 'Deliver',
+        description: "Give something to someone.",
+        ideaType: goalType,
+        icons: [
+            '/delapouite/delivery-drone.svg',
+            '/lorc/galleon.svg',
+            '/delapouite/cardboard-box-closed.svg',
+            '/delapouite/mine-wagon.svg',
+            '/delapouite/cargo-ship.svg'
+        ]
+    },
+    {
+        ideaName: 'Destroy',
+        description: "Whatever is standing, it won't be for long!",
+        ideaType: goalType,
+        icons: [
+            '/skoll/carpet-bombing.svg',
+            '/lorc/demolish.svg',
+            '/lorc/pyromaniac.svg',
+            '/lorc/wrecking-ball.svg',
+            '/delapouite/hammer-break.svg'
+        ]
+    },
+    {
+        ideaName: 'Escape',
+        description: "Someone wants to leave where they are.",
+        ideaType: goalType,
+        icons: [
+            '/delapouite/forest-entrance.svg',
+            '/delapouite/cave-entrance.svg',
+            '/delapouite/evasion.svg',
+            '/delapouite/fish-escape.svg'
+        ]
+    },
+    {
+        ideaName: 'Fight',
+        description: "Someone is attacking or being attacked.",
+        ideaType: goalType,
+        icons: [
+            '/lorc/sword-clash.svg',
+            '/lorc/cannon-shot.svg',
+            '/delapouite/coliseum.svg',
+            '/skoll/knockout.svg',
+            '/lorc/internal-injury.svg'
+        ]
+    },
+    {
+        ideaName: 'Rescue',
+        description: "Someone is in trouble and needs help!",
+        ideaType: goalType,
+        icons: [
+            '/lorc/paranoia.svg',
+            '/lorc/shield-reflect.svg',
+            '/delapouite/lighthouse.svg',
+            '/lorc/angel-outfit.svg',
+            '/delapouite/life-buoy.svg'
+        ]
+    },
+    {
+        ideaName: 'Steal',
+        description: "Someone wants to take something that isn't thier's.",
+        ideaType: goalType,
+        icons: [
+            '/lorc/paranoia.svg',
+            '/lorc/shield-reflect.svg',
+            '/delapouite/lighthouse.svg',
+            '/lorc/angel-outfit.svg',
+            '/delapouite/life-buoy.svg'
+        ]
+    },
+    {
+        ideaName: 'Survive',
+        description: "Do whatever it takes to survive just one more day.",
+        ideaType: goalType,
+        icons: [
+            '/lorc/snowflake-2.svg',
+            '/delapouite/water-bottle.svg',
+            '/delapouite/life-bar.svg',
+            '/lorc/wolf-howl.svg',
+            '/delapouite/opened-food-can.svg'
+        ]
+    },
+    {
+        ideaName: 'Settle',
+        description: "Make a new home and make it grow and prosper.",
+        ideaType: goalType,
+        icons: [
+            '/delapouite/castle.svg',
+            '/lorc/hammer-nails.svg',
+            '/lorc/wheat.svg',
+            '/delapouite/well.svg',
+            '/delapouite/factory-arm.svg'
+        ]
+    },
+    {
+        ideaName: 'Solve',
+        description: "Unravel the mystery. Complete the puzzle.",
+        ideaType: goalType,
+        icons: [
+            '/delapouite/archive-research.svg',
+            '/delapouite/puzzle.svg',
+            '/delapouite/spy.svg',
+            '/delapouite/cctv-camera.svg',
+            '/delapouite/key-card.svg'
+        ]
+    },
+    {
+        ideaName: 'Score',
+        description: "If there are points, you want them.",
+        ideaType: goalType,
+        icons: [
+            '/delapouite/basketball-basket.svg',
+            '/delapouite/level-end-flag.svg',
+            '/lorc/empty-hourglass.svg',
+            '/delapouite/jumping-dog.svg',
+            '/lorc/crown-coin.svg'
+        ]
+    },
+    {
+        ideaName: 'Race',
+        description: "Get to the finish line!",
+        ideaType: goalType,
+        icons: [
+            '/skoll/race-car.svg',
+            '/delapouite/finish-line.svg',
+            '/lorc/empty-hourglass.svg',
+            '/delapouite/medallist.svg',
+            '/delapouite/banana-peel.svg'
+        ]
+    },
+    {
+        ideaName: 'Explore',
+        description: "Get lost for fun!",
+        ideaType: goalType,
+        icons: [
+            '/caro-asercion/mountain-climbing.svg',
+            '/delapouite/swimfins.svg',
+            '/delapouite/hang-glider.svg',
+            '/lorc/grapple.svg',
+            '/delapouite/binoculars.svg'
+        ]
+    },
+    {
+        ideaName: 'Climb',
+        description: "Get to the top.",
+        ideaType: goalType,
+        icons: [
+            '/caro-asercion/mountain-climbing.svg',
+            '/delapouite/tower-flag.svg',
+            '/heavenly-dog/defensive-wall.svg',
+            '/lorc/grapple.svg',
+            '/lorc/rocket-flight.svg'
+        ]
+    },
+    {
+        ideaName: 'Dig',
+        description: "Go as low as you can go.",
+        ideaType: goalType,
+        icons: [
+            '/lorc/diamond-hard.svg',
+            '/delapouite/dig-hole.svg',
+            '/lorc/drill.svg',
+            '/delapouite/dynamite.svg',
+            '/delapouite/flashlight.svg'
+        ]
+    },
+    {
+        ideaName: 'Research',
+        description: "Discover the secrets of the universe.",
+        ideaType: goalType,
+        icons: [
+            '/lord-berandas/microscope.svg',
+            '/lorc/light-bulb.svg',
+            '/delapouite/car-wheel.svg',
+            '/delapouite/observatory.svg',
+            '/skoll/atom.svg'
+        ]
+    },
+    {
+        ideaName: 'Persuade',
+        description: "Convince someone of something.",
+        ideaType: goalType,
+        icons: [
+            '/delapouite/monk-face.svg',
+            '/delapouite/love-letter.svg',
+            '/lorc/trade.svg',
+            '/skoll/talk.svg',
+            '/lorc/sabers-choc.svg'
+        ]
+    },
+    {
+        ideaName: 'Accomplish',
+        description: "Recieve the highest medals and honors.",
+        ideaType: goalType,
+        icons: [
+            '/delapouite/medallist.svg',
+            '/delapouite/trophies-shelf.svg',
+            '/delapouite/coronation.svg',
+            '/skoll/rank-3.svg',
+            '/delapouite/high-kick.svg'
+        ]
+    },
+    {
+        ideaName: 'Protect',
+        description: "Prevent someone or something from being harmed.",
+        ideaType: goalType,
+        icons: [
+            '/lorc/cat.svg',
+            '/delapouite/baby-face.svg',
+            '/delapouite/griffin-shield.svg',
+            '/lorc/bubble-field.svg',
+            '/delapouite/ecology.svg'
+        ]
+    },
+    {
+        ideaName: 'Sneak',
+        description: "Don't be detected.",
+        ideaType: goalType,
+        icons: [
+            '/delapouite/stealth-bomber.svg',
+            '/lorc/cloak-dagger.svg',
+            '/darkzaitzev/ninja-heroic-stance.svg',
+            '/darkzaitzev/smoke-bomb.svg',
+            '/delapouite/double-street-lights.svg'
+        ]
+    },
+    {
+        ideaName: 'Capture',
+        description: "Contain something or someone.",
+        ideaType: goalType,
+        icons: [
+            '/delapouite/cage.svg',
+            '/delapouite/bug-net.svg',
+            '/skoll/box-trap.svg',
+            '/lorc/mantrap.svg',
+            '/delapouite/daemon-pull.svg'
         ]
     }
 ];
@@ -733,7 +853,7 @@ export const SETTINGS: IIdea[] = [
     },
     {
         ideaName: 'Zombies',
-        description: "Undead shambling corpses have taken over!",
+        description: "Shambling corpses have taken over!",
         ideaType: settingType,
         icons: [
             '/lorc/dozen.svg',
@@ -741,6 +861,198 @@ export const SETTINGS: IIdea[] = [
             '/skoll/raise-zombie.svg',
             '/delapouite/half-body-crawling.svg',
             '/delapouite/shambling-zombie.svg'
+        ]
+    },
+    {
+        ideaName: 'Anthropomorphic',
+        description: "Humanoid looking creatures are present.",
+        ideaType: settingType,
+        icons: [
+            '/caro-asercion/badger.svg',
+            '/delapouite/frog-prince.svg',
+            '/lorc/minotaur.svg',
+            '/lorc/werewolf.svg',
+            '/delapouite/panda.svg'
+        ]
+    },
+    {
+        ideaName: 'Gunpowder',
+        description: "Massive boats with cannons and muskets.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/caravel.svg',
+            '/skoll/musket.svg',
+            '/delapouite/pirate-cannon.svg',
+            '/lorc/quill-ink.svg',
+            '/delapouite/pirate-coat.svg'
+        ]
+    },
+    {
+        ideaName: 'Underground',
+        description: "Takes place in caves or caverns.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/cave-entrance.svg',
+            '/delapouite/underground-cave.svg',
+            '/delapouite/swamp-bat.svg',
+            '/lorc/dark-squad.svg',
+            '/lorc/mining.svg'
+        ]
+    },
+    {
+        ideaName: 'Underwater',
+        description: "Takes place in a body of water.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/earth-america.svg',
+            '/delapouite/giant-squid.svg',
+            '/delapouite/diving-helmet.svg',
+            '/delapouite/submarine.svg',
+            '/lorc/angler-fish.svg'
+        ]
+    },
+    {
+        ideaName: 'World Wars',
+        description: "War across the entire planet.",
+        ideaType: settingType,
+        icons: [
+            '/skoll/bayonet.svg',
+            '/lorc/mushroom-cloud.svg',
+            '/battle-tank.svg',
+            '/delapouite/flamethrower-soldier.svg',
+            '/lorc/gas-mask.svg'
+        ]
+    },
+    {
+        ideaName: 'Simulation',
+        description: "Red pill or blue pill?",
+        ideaType: settingType,
+        icons: [
+            '/lorc/anatomy.svg',
+            '/delapouite/server-rack.svg',
+            '/delapouite/vr-headset.svg',
+            '/lord-berandas/computing.svg',
+            '/lorc/circuitry.svg'
+        ]
+    },
+    {
+        ideaName: 'Dream',
+        description: "Wake up.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/sleeping-bag.svg',
+            '/delapouite/time-synchronization.svg',
+            '/sbed/falling.svg',
+            '/cathelineau/flying-trout.svg',
+            '/lorc/beanstalk.svg'
+        ]
+    },
+    {
+        ideaName: 'Desert',
+        description: "Dry and full of sand.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/desert.svg',
+            '/delapouite/desert-camp.svg',
+            '/delapouite/egyptian-temple.svg',
+            '/delapouite/sandstorm.svg',
+            '/delapouite/sand-snake.svg'
+        ]
+    },
+    {
+        ideaName: 'Jungle',
+        description: "Wet with tall tree canopies.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/jungle.svg',
+            '/delapouite/vines.svg',
+            '/caro-asercion/treehouse.svg',
+            '/lorc/monkey.svg',
+            '/delapouite/cuauhtli.svg'
+        ]
+    },
+    {
+        ideaName: 'Forest',
+        description: "Mundane but serene woodlands.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/forest.svg',
+            '/delapouite/squirrel.svg',
+            '/caro-asercion/deer.svg',
+            '/delapouite/waterfall.svg',
+            '/lorc/bird-twitter.svg'
+        ]
+    },
+    {
+        ideaName: 'Urban',
+        description: "Set inside a large gathering of structures.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/modern-city.svg',
+            '/delapouite/bus.svg',
+            '/delapouite/village.svg',
+            '/lorc/dozen.svg',
+            '/delapouite/traffic-lights-ready-to-go.svg'
+        ]
+    },
+    {
+        ideaName: 'Beach',
+        description: "Bask in the sunlight!",
+        ideaType: settingType,
+        icons: [
+            '/lorc/sunbeams.svg',
+            '/lorc/big-wave.svg',
+            '/delapouite/sunglasses.svg',
+            '/delapouite/sand-castle.svg',
+            '/delapouite/metal-detector.svg'
+        ]
+    },
+    {
+        ideaName: 'Island',
+        description: "Stranded or on vacation?",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/island.svg',
+            '/delapouite/moai.svg',
+            '/lorc/spiral-shell.svg',
+            '/delapouite/koholint-egg.svg',
+            '/delapouite/lighthouse.svg'
+        ]
+    },
+    {
+        ideaName: 'Savannah',
+        description: "Lots of grass.",
+        ideaType: settingType,
+        icons: [
+            '/lorc/lion.svg',
+            '/delapouite/grass.svg',
+            '/delapouite/baobab.svg',
+            '/delapouite/elephant.svg',
+            '/lorc/sunrise.svg'
+        ]
+    },
+    {
+        ideaName: 'Swamp',
+        description: "Stay out.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/swamp.svg',
+            '/lorc/dragonfly.svg',
+            '/lorc/frog.svg',
+            '/caro-asercion/willow-tree.svg',
+            '/delapouite/reed.svg'
+        ]
+    },
+    {
+        ideaName: 'Mountainous',
+        description: "Difficult to traverse.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/summits.svg',
+            '/caro-asercion/mountain-climbing.svg',
+            '/delapouite/skier.svg',
+            '/lorc/wolf-head.svg',
+            '/delapouite/falling-rocks.svg'
         ]
     }
 ];
