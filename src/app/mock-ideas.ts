@@ -740,7 +740,43 @@ export const SETTINGS: IIdea[] = [
             '/delapouite/fire-spell-cast.svg',
             '/lorc/wing-cloak.svg',
             '/lorc/evil-fork.svg',
-            '/caro-asercion/round-potion.svg'
+            '/willdabeast/chain-lightning.svg'
+        ]
+    },
+    {
+        ideaName: 'Superheroes',
+        description: "A select few people have access to superpowers.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/weight-lifting-up.svg',
+            '/lorc/angel-wings.svg',
+            '/delapouite/scuba-mask.svg',
+            '/delapouite/night-vision.svg',
+            '/lorc/laserburn.svg'
+        ]
+    },
+    {
+        ideaName: 'Slipstream',
+        description: "Weird is normal and normal is weird.",
+        ideaType: settingType,
+        icons: [
+            '/lorc/nailed-head.svg',
+            '/lorc/squid-head.svg',
+            '/cathelineau/flying-trout.svg',
+            '/delapouite/smart.svg',
+            '/lorc/angler-fish.svg'
+        ]
+    },
+    {
+        ideaName: 'Cyborgs',
+        description: "Your world has access to robotic enhancements.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/cyber-eye.svg',
+            '/lorc/metal-hand.svg',
+            '/delapouite/robot-leg.svg',
+            '/lorc/techno-heart.svg',
+            '/delapouite/cyborg-face.svg'
         ]
     },
     {
@@ -1053,6 +1089,138 @@ export const SETTINGS: IIdea[] = [
             '/delapouite/skier.svg',
             '/lorc/wolf-head.svg',
             '/delapouite/falling-rocks.svg'
+        ]
+    },
+    {
+        ideaName: 'Fleshland',
+        description: "The earth is made of flesh and blood.",
+        ideaType: settingType,
+        icons: [
+            '/skoll/blood.svg',
+            '/lorc/eyestalk.svg',
+            '/lorc/heart-organ.svg',
+            '/lorc/open-wound.svg',
+            '/lorc/fleshy-mass.svg'
+        ]
+    },
+    {
+        ideaName: 'Metalscape',
+        description: "The surface is all metallic.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/metal-plate.svg',
+            '/lorc/metal-disc.svg',
+            '/lorc/metal-scales.svg',
+            '/delapouite/hexagonal-nut.svg',
+            '/delapouite/spiky-pit.svg'
+        ]
+    },
+    {
+        ideaName: 'Volcanic',
+        description: "Lots of lava everywhere.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/planet-core.svg',
+            '/lorc/eruption.svg',
+            '/lorc/caldera.svg',
+            '/lorc/smoking-orb.svg',
+            '/lorc/fire-zone.svg'
+        ]
+    },
+    {
+        ideaName: 'Bioengineered',
+        description: "Genetic engineering the perfect specimen.",
+        ideaType: settingType,
+        icons: [
+            '/lorc/dna2.svg',
+            '/lorc/octoman.svg',
+            '/lorc/anatomy.svg',
+            '/delapouite/mighty-force.svg',
+            '/skoll/skeleton.svg'
+        ]
+    },
+    {
+        ideaName: 'Psychic',
+        description: "All minds connected to another dimension.",
+        ideaType: settingType,
+        icons: [
+            '/lorc/psychic-waves.svg',
+            '/lorc/meditation.svg',
+            '/lorc/minions.svg',
+            '/lorc/telepathy.svg',
+            '/lorc/third-eye.svg'
+        ]
+    },
+    {
+        ideaName: 'Vampires',
+        description: "Bloodsucking undead creatures of the night.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/neck-bite.svg',
+            '/delapouite/vampire-cape.svg',
+            '/delapouite/moon-bats.svg',
+            '/delapouite/vampire-dracula.svg',
+            '/lorc/coffin.svg'
+        ]
+    },
+    {
+        ideaName: 'Lycanthropes',
+        description: "Transformed creatures of the night.",
+        ideaType: settingType,
+        icons: [
+            '/lorc/werewolf.svg',
+            '/lorc/wolf-howl.svg',
+            '/delapouite/silver-bullet.svg',
+            '/skoll/fangs.svg',
+            '/lorc/grasping-claws.svg'
+        ]
+    },
+    {
+        ideaName: 'Clouds',
+        description: "Up in the sky!",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/sun-cloud.svg',
+            '/delapouite/hand-wing.svg',
+            '/delapouite/heaven-gate.svg',
+            '/skoll/zeppelin.svg',
+            '/lorc/rainbow-star.svg'
+        ]
+    },
+    {
+        ideaName: 'Hell',
+        description: "Fire and brimstone.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/devil-mask.svg',
+            '/lorc/evil-fork.svg',
+            '/lorc/fire-silhouette.svg',
+            '/skoll/pentacle.svg',
+            '/delapouite/hades-symbol.svg'
+        ]
+    },
+    {
+        ideaName: 'Frozen',
+        description: "Extremely cold.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/thermometer-cold.svg',
+            '/lorc/ice-cube.svg',
+            '/delapouite/ice-iris.svg',
+            '/lorc/eskimo.svg',
+            '/lorc/snowman.svg'
+        ]
+    },
+    {
+        ideaName: 'Sweltering',
+        description: "Extremely hot.",
+        ideaType: settingType,
+        icons: [
+            '/delapouite/thermometer-hot.svg',
+            '/lorc/sunbeams.svg',
+            '/lorc/wildfires.svg',
+            '/lorc/hot-spices.svg',
+            '/lorc/caldera.svg'
         ]
     }
 ];
