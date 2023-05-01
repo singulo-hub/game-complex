@@ -1228,7 +1228,7 @@ export const SETTINGS: IIdea[] = [
 export const WILDCARDS: IIdea[] = [
     {
         ideaName: 'Arcade',
-        description: 'Include a small arcade game.',
+        description: 'Include a small mini-game.',
         ideaType: wildcardType,
         icons: [
             '/delapouite/floating-platforms.svg',
@@ -1420,7 +1420,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Leviathan',
-        description: 'Scale something up so drastically that your jaw drops!',
+        description: 'Scale something up to be MASSIVE!',
         ideaType: wildcardType,
         icons: [
             '/delapouite/giant.svg',
@@ -1504,7 +1504,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Overgrown',
-        description: 'Part of a level has been taken over by nature.',
+        description: 'Something has been taken over by nature.',
         ideaType: wildcardType,
         icons: [
             '/delapouite/high-grass.svg',
@@ -1612,7 +1612,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Shortcut',
-        description: "Include a shortcut for perceptive players.",
+        description: 'Include a shortcut for perceptive players.',
         ideaType: wildcardType,
         icons: [
             '/delapouite/underground-cave.svg',
@@ -1624,7 +1624,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Splash Screen',
-        description: "Include a charming audio jingle and logo intro.",
+        description: 'Include a charming audio jingle and logo intro.',
         ideaType: wildcardType,
         icons: [
             '/delapouite/sound-on.svg',
@@ -1636,7 +1636,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Follower',
-        description: "Someone or something is following you.",
+        description: 'Someone or something is following you.',
         ideaType: wildcardType,
         icons: [
             '/delapouite/hunter-eyes.svg',
@@ -1648,7 +1648,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Talking',
-        description: "Be able to talk to people, creatures, or things.",
+        description: 'Be able to talk to someone or something.',
         ideaType: wildcardType,
         icons: [
             '/delapouite/tribunal-jury.svg',
@@ -1660,7 +1660,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Taming',
-        description: "Enemies become friends!",
+        description: 'Enemies become friends!',
         ideaType: wildcardType,
         icons: [
             '/delapouite/health-potion.svg',
@@ -1672,7 +1672,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Time Passage',
-        description: "Include a waiting mechanic to pass time.",
+        description: 'Include a waiting mechanic to pass time.',
         ideaType: wildcardType,
         icons: [
             '/delapouite/watch.svg',
@@ -1684,7 +1684,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Weather',
-        description: "Have some kind of weather.",
+        description: 'Have some kind of weather.',
         ideaType: wildcardType,
         icons: [
             '/lorc/raining.svg',
@@ -1696,7 +1696,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Water',
-        description: "Interactable water in some form or another.",
+        description: 'Interactable water in some form or another.',
         ideaType: wildcardType,
         icons: [
             '/lorc/raining.svg',
@@ -1708,7 +1708,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Nonviolent',
-        description: "No one is physically harming eachother.",
+        description: 'No one is physically harming eachother.',
         ideaType: wildcardType,
         icons: [
             '/skoll/talk.svg',
@@ -1720,7 +1720,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Nighttime',
-        description: "It was a dark a stormy night...",
+        description: 'It was a dark a stormy night...',
         ideaType: wildcardType,
         icons: [ 
             '/lorc/night-sky.svg',
@@ -1732,7 +1732,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Tropes',
-        description: "Include one of your favorite tropes!",
+        description: 'Include one of your favorite tropes!',
         ideaType: wildcardType,
         icons: [ 
             '/delapouite/elevator.svg',
@@ -1740,6 +1740,42 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/hand-of-god.svg',
             '/lorc/minions.svg',
             '/lorc/angel-outfit.svg'
+        ]
+    },
+    {
+        ideaName: 'Excalibur',
+        description: "There's a powerful artifact waiting to be claimed.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/sword-altar.svg',
+            '/lorc/holy-grail.svg',
+            '/delapouite/koholint-egg.svg',
+            '/lorc/wingfoot.svg',
+            '/lorc/evil-book.svg'
+        ]
+    },
+    {
+        ideaName: 'Boss',
+        description: 'Someone big and powerful to take down.',
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/minions.svg',
+            '/delapouite/boss-key.svg',
+            '/delapouite/air-man.svg',
+            '/delapouite/organigram.svg',
+            '/caro-asercion/warlord-helmet.svg'
+        ]
+    },
+    {
+        ideaName: 'Custom Difficulty',
+        description: "Allow users to customize aspects of your game's difficulty.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/toggles.svg',
+            '/lorc/on-target.svg',
+            '/lorc/despair.svg',
+            '/delapouite/weight-lifting-down.svg',
+            '/lorc/broken-bone.svg'
         ]
     }
 ];
