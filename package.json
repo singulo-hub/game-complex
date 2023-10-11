@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "publish": "npx angular-cli-ghpages --dir=dist/game-complex"
   },
   "private": true,
   "dependencies": {
