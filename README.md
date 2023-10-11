@@ -1,7 +1,7 @@
 # Game Complex
 This is a game idea generator. I liked some of the other game idea generators I searched for online, but I felt like I could change the ideas that were generated to better suit what I think of when I am brainstorming.
 
-I used Angular to make this project as I use it for work and I wanted to explore some areas I don't normally get to at work. Initially this project was in Godot 3.5.1 but I was having trouble getting the font scaling to work right at smaller resolutions. Instead of hosting the Godot project on itch.io, I decided to host it here on GitHub Pages instead with Angular.
+I used Angular to make this project as I use it for work and I wanted to explore some areas I don't normally get to at work. Initially this project was in Godot 3.5.1 but I was having trouble getting the font scaling to work right at smaller resolutions. Instead of hosting the Godot project on itch.io, I decided to host it here on GitHub Pages with Angular.
 
 ## Categories
 The categories are Themes, Goals, Settings, and Wildcards.
