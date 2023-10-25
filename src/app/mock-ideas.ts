@@ -1768,7 +1768,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Custom Difficulty',
-        description: "Allow users to customize aspects of your game's difficulty.",
+        description: "Allow players to customize aspects of your game's difficulty.",
         ideaType: wildcardType,
         icons: [ 
             '/delapouite/toggles.svg',
@@ -1776,6 +1776,42 @@ export const WILDCARDS: IIdea[] = [
             '/lorc/despair.svg',
             '/delapouite/weight-lifting-down.svg',
             '/lorc/broken-bone.svg'
+        ]
+    },
+    {
+        ideaName: 'Farming',
+        description: "Tend to crops. Raise livestock.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/chicken.svg',
+            '/lorc/wheat.svg',
+            '/delapouite/beehive.svg',
+            '/delapouite/farmer.svg',
+            '/delapouite/cow.svg'
+        ]
+    },
+    {
+        ideaName: 'Furry Friends',
+        description: "Include a talking animal.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/rabbit-head.svg',
+            '/skoll/pig.svg',
+            '/delapouite/duck.svg',
+            '/lorc/cat.svg',
+            '/delapouite/cow.svg'
+        ]
+    },
+    {
+        ideaName: 'Easter Eggs',
+        description: "Hide something special for players to find.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/cosmic-egg.svg',
+            '/skoll/walther-ppk.svg',
+            '/delapouite/sitting-dog.svg',
+            '/lorc/sparking-sabre.svg',
+            '/delapouite/pick-of-destiny.svg'
         ]
     }
 ];
