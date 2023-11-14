@@ -15,7 +15,7 @@ Settings determine the features of the surrounding world. I decided to generate 
 Lastly, I absolutely loved the idea of Wildcards from the [Godot Wild Jam](https://godotwildjam.com/). They can potentially help make an idea stand out.
 
 ## Layout
-For the overall layout of the page, I really liked how [monochroma380's Game Idea Generator](https://monochroma380.itch.io/game-idea-generator) looked and felt. I wanted to incorporate parts of its design in combination with my original idea for this project, which was to use cards.
+For the overall layout of the page, I really liked how [monochroma380's Game Idea Generator](https://monochroma380.itch.io/game-idea-generator) looked and felt. I wanted to incorporate parts of its design in combination with my original idea for this project, which was to use cards. Below is a prototype I built:
 
 ![image](https://user-images.githubusercontent.com/47376325/232179513-79b6e7dc-860a-4dd8-a653-936bcda84151.png)
 
