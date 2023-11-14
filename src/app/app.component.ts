@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { Subject } from 'rxjs';
-import { goalType, wildcardType, themeType, settingType } from './mock-ideas';
+import { goalType } from './data/goals';
+import { wildcardType } from './data/wildcards';
+import { themeType } from './data/themes';
+import { settingType } from './data/settings';
 
 @Component({
   selector: 'app-root',

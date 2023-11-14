@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, ElementRef, EventEmitter, Input, Output, ViewChild } from '@angular/core';
-import { IDEA } from '../mock-ideas';
+import { IDEA } from '../data/placeholder-idea';
 import { IIdea } from '../models/idea';
 import { trigger, state, transition, style, animate } from '@angular/animations';
 import { BehaviorSubject } from 'rxjs';

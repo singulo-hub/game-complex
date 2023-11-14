@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import arrayShuffle from 'array-shuffle';
 import { Observable } from 'rxjs';
 import { IdeaService } from '../idea.service';
-import { goalType } from '../mock-ideas';
+import { goalType } from '../data/placeholder-idea';
 import { IIdea } from '../models/idea';
 import { IIdeaType } from '../models/idea-type';
 

@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { GOALS, SETTINGS, THEMES, WILDCARDS } from './mock-ideas';
+import { GOALS } from './data/goals';
+import { SETTINGS } from './data/settings';
+import { THEMES } from './data/themes';
+import { WILDCARDS } from './data/wildcards';
 import { IIdea } from './models/idea';
 
 @Injectable({
