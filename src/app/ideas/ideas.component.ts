@@ -28,7 +28,8 @@ export class IdeasComponent implements OnInit {
     if (this.ideaType) {
       this.ideaService.getIdeas(this.ideaType.typeName).subscribe(ideas => {
         this.ideas = ideas;
-        console.log(this.ideas);
+        console.debug(this.ideaType);
+        console.debug(this.ideas);
         if (this.ideas.length > 0) {
           this.ideas = arrayShuffle(this.ideas);
           for (let index = 0; index < this.amount; index++) {
@@ -56,6 +57,14 @@ export class IdeasComponent implements OnInit {
     }
   }
   
+  dropIdeas() {
+    for (let index = 0; index < this.activeIdeas.length; index++) {
+      if (!this.lockedIdeas[index]) {
+      this.dropIdea(index);
+      }
+    }
+  }
+
   lockIdea(index: number) {
     this.lockedIdeas[index] = !this.lockedIdeas[index];
   }

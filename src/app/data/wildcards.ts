@@ -54,7 +54,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Collectibles',
-        description: 'Be able to collect all sorts of interesting objects to show off!',
+        description: 'Be able to collect all sorts of trinkets to show off!',
         ideaType: wildcardType,
         icons: [
             '/delapouite/bookshelf.svg',
@@ -234,7 +234,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Mute',
-        description: 'No talking or reading. Just atmosphere.',
+        description: 'Minimal talking or reading. Just atmosphere.',
         ideaType: wildcardType,
         icons: [
             '/delapouite/musical-notes.svg',
@@ -258,7 +258,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'New Game+',
-        description: 'New content that is only accessible after beating the game.',
+        description: 'Do it all over again, but it is even harder!',
         ideaType: wildcardType,
         icons: [
             '/delapouite/bolt-spell-cast.svg',
@@ -326,18 +326,6 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/hamburger-menu.svg',
             '/delapouite/exit-door.svg',
             '/delapouite/move.svg'
-        ]
-    },
-    {
-        ideaName: 'Power-ups',
-        description: 'Add temporary benefits / abilities to be obtained.',
-        ideaType: wildcardType,
-        icons: [
-            '/delapouite/jump-across.svg',
-            '/delapouite/shield-impact.svg',
-            '/delapouite/healing.svg',
-            '/delapouite/speedometer.svg',
-            '/lorc/boots.svg'
         ]
     },
     {
@@ -588,7 +576,7 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/cosmic-egg.svg',
             '/skoll/walther-ppk.svg',
             '/delapouite/sitting-dog.svg',
-            '/lorc/sparking-sabre.svg',
+            '/lorc/sparkling-sabre.svg',
             '/delapouite/pick-of-destiny.svg'
         ]
     },
@@ -614,6 +602,570 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/cigale.svg',
             '/lorc/carrion.svg',
             '/lorc/spotted-mushroom.svg'
+        ]
+    },
+    {
+        ideaName: 'Developer Commentary',
+        description: "Add an interaction/level that talks about developing the game.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/skoll/talk.svg',
+            '/lorc/robe.svg',
+            '/lorc/book-cover.svg',
+            '/delapouite/stone-bust.svg',
+            '/delapouite/mona-lisa.svg'
+        ]
+    },
+    {
+        ideaName: 'Self-Aware NPC',
+        description: "Add an NPC that knows it's in a game and the player is controlling it.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/caro-asercion/goblin.svg',
+            '/lorc/robe.svg',
+            '/delapouite/hand-of-god.svg',
+            '/lord-berandas/artificial-intelligence.svg',
+            '/lorc/evil-book.svg'
+        ]
+    },
+    {
+        ideaName: 'Virtual Reality',
+        description: "Add VR support for your game.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/vr-headset.svg',
+            '/lorc/snatch.svg',
+            '/lorc/juggler.svg',
+            '/quoting/card-pickup.svg',
+            '/delapouite/high-punch.svg'
+        ]
+    },
+    {
+        ideaName: 'Gravity Manipulation',
+        description: "Allow gravity strength and direction to be changed.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/sbed/fall-down.svg',
+            '/delapouite/gravitation.svg',
+            '/sbed/falling.svg',
+            '/delapouite/falling-rocks.svg',
+            '/delapouite/weight.svg'
+        ]
+    },
+    {
+        ideaName: 'Time Manipulation',
+        description: "Allow time direction or dilation to be changed.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/backward-time.svg',
+            '/lorc/time-trap.svg',
+            '/delapouite/calendar.svg',
+            '/lorc/stopwatch.svg',
+            '/lorc/empty-hourglass.svg'
+        ]
+    },
+    {
+        ideaName: 'Score',
+        description: "Get the high score!",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/goal-keeper.svg',
+            '/delapouite/level-end-flag.svg',
+            '/lorc/arrow-scope.svg',
+            '/delapouite/coins.svg',
+            '/lorc/saphir.svg'
+        ]
+    },
+    {
+        ideaName: 'Analytics',
+        description: "Keep track of something that persists across play sessions.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/path-distance.svg',
+            '/lorc/profit.svg',
+            '/delapouite/miner.svg',
+            '/delapouite/discussion.svg',
+            '/delapouite/switch-weapon.svg'
+        ]
+    },
+    {
+        ideaName: 'Shapeshifter',
+        description: "Have something (or someone) change forms into something else.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/spy.svg',
+            '/delapouite/steam.svg',
+            '/lorc/hidden.svg',
+            '/delapouite/berry-bush.svg',
+            '/cathelineau/tree-face.svg'
+        ]
+    },
+    {
+        ideaName: 'Dance Dance',
+        description: "Settle conflicts with dance-offs for rewards.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/zigzag-tune.svg',
+            '/delapouite/ballerina-shoes.svg',
+            '/delapouite/move.svg',
+            '/lorc/sing.svg',
+            '/lorc/juggler.svg'
+        ]
+    },
+    {
+        ideaName: 'Reverse Progression',
+        description: "Rather than level up, have the player start at peak power and slowly decline.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/team-downgrade.svg',
+            '/delapouite/weight.svg',
+            '/delapouite/brain-dump.svg',
+            '/delapouite/armor-upgrade.svg',
+            '/skoll/amputation.svg'
+        ]
+    },
+    {
+        ideaName: 'Parallel Dimension',
+        description: "Allow players to travel alternate dimensions with its own rules.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/magic-portal.svg',
+            '/various-artists/infinity.svg',
+            '/lorc/shadow-follower.svg',
+            '/delapouite/invisible.svg',
+            '/delapouite/direction-signs.svg'
+        ]
+    },
+    {
+        ideaName: 'Level Editor',
+        description: "Include a level editor that allows players to make their own maps.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/hills.svg',
+            '/lorc/grease-trap.svg',
+            '/caro-asercion/gyroscope.svg',
+            '/caro-asercion/birch-trees.svg',
+            '/delapouite/person.svg'
+        ]
+    },
+    {
+        ideaName: 'Mind Control',
+        description: "Include a power that allows minds to be controlled.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/hive-mind.svg',
+            '/lorc/psychic-waves.svg',
+            '/lorc/telepathy.svg',
+            '/lorc/backstab.svg',
+            '/caro-asercion/prank-glasses.svg'
+        ]
+    },
+    {
+        ideaName: 'Unconventional Means',
+        description: "Create bizzare and quarky weapons and tools to accomplish goals.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/fishing-lure.svg',
+            '/delapouite/toaster.svg',
+            '/lorc/thrown-spear.svg',
+            '/lorc/tune-pitch.svg',
+            '/caro-asercion/ricochet.svg'
+        ]
+    },
+    {
+        ideaName: 'Scripting',
+        description: "Include an in-game code editor that allows players to write scripts.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/keyboard.svg',
+            '/lord-berandas/computing.svg',
+            '/delapouite/logic-gate-and.svg',
+            '/delapouite/save.svg',
+            '/delapouite/crafting.svg'
+        ]
+    },
+    {
+        ideaName: 'Creature Breeding',
+        description: "Raise unique creatures that can have traits and abilities passed down.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/egg-clutch.svg',
+            '/delapouite/crafting.svg',
+            '/delapouite/slime.svg',
+            '/lorc/ghost.svg',
+            '/delapouite/labrador-head.svg'
+        ]
+    },
+    {
+        ideaName: 'Microscopic',
+        description: "Shrink down to explore tiny hidden worlds.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/giant.svg',
+            '/lorc/bird-twitter.svg',
+            '/lorc/parmecia.svg',
+            '/lorc/stomp.svg',
+            '/lorc/virus.svg'
+        ]
+    },
+    {
+        ideaName: 'Photography',
+        description: "Have an in-game photography system.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/photo-camera.svg',
+            '/delapouite/mug-shot.svg',
+            '/delapouite/summits.svg',
+            '/caro-asercion/sloth.svg',
+            '/caro-asercion/archaeopteryx-fossil.svg'
+        ]
+    },
+    {
+        ideaName: 'Dream Diving',
+        description: "Jump into a someone's dream to explore their mind.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/star-swirl.svg',
+            '/lorc/coma.svg',
+            '/delapouite/sleeping-bag.svg',
+            '/delapouite/koholint-egg.svg',
+            '/delapouite/dream-catcher.svg'
+        ]
+    },
+    {
+        ideaName: 'Flying Islands',
+        description: "Landmasses suspended in the air by magic or some other means.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/floating-platforms.svg',
+            '/delapouite/waterfall.svg',
+            '/skoll/zeppelin.svg',
+            '/delapouite/sun-cloud.svg',
+            '/lorc/floating-crystal.svg'
+        ]
+    },
+    {
+        ideaName: 'Glitchy Corruption Madness',
+        description: "The game world slowly breaks apart.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lord-berandas/computing.svg',
+            '/delapouite/up-card.svg',
+            '/darkzaitzev/distraction.svg',
+            '/sbed/falling.svg',
+            '/lorc/screaming.svg'
+        ]
+    },
+    {
+        ideaName: 'Teleportation',
+        description: "Travel from one specific spot to another.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/portal.svg',
+            '/lorc/magic-palm.svg',
+            '/lorc/fairy-wand.svg',
+            '/lorc/tied-scroll.svg',
+            '/lorc/crystal-shine.svg'
+        ]
+    },
+    {
+        ideaName: 'Reality-bending Paintbrush',
+        description: "Include a paintbrush that can bring things to life.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/large-paint-brush.svg',
+            '/lorc/peaks.svg',
+            '/delapouite/jungle.svg',
+            '/lorc/rock.svg',
+            '/lorc/dozen.svg'
+        ]
+    },
+    {
+        ideaName: 'Language Barrier',
+        description: "No one understands you and vice versa.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/skoll/talk.svg',
+            '/delapouite/misdirection.svg',
+            '/delapouite/think.svg',
+            '/delapouite/mute.svg',
+            '/delapouite/shrug.svg'
+        ]
+    },
+    {
+        ideaName: 'Reactive Environment',
+        description: "Have the world react to your player in some way.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/fire-zone.svg',
+            '/delapouite/helicopter.svg',
+            '/quoting/bunker-assault.svg',
+            '/lorc/shark-jaws.svg',
+            '/lorc/ground-sprout.svg'
+        ]
+    },
+    {
+        ideaName: 'Fire',
+        description: "Set something on fire!",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/fireplace.svg',
+            '/lorc/fire-bomb.svg',
+            '/delapouite/fire-shrine.svg',
+            '/delapouite/burning-forest.svg',
+            '/delapouite/flamethrower-soldier.svg'
+        ]
+    },
+    {
+        ideaName: 'Disguises',
+        description: "Include disguises that can decieve observers.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/caro-asercion/prank-glasses.svg',
+            '/delapouite/bat-mask.svg',
+            '/darkzaitzev/chameleon-glyph.svg',
+            '/delapouite/transform.svg',
+            '/caro-asercion/frog-mouth-helm.svg'
+        ]
+    },
+    {
+        ideaName: 'Fast Travel',
+        description: "Travel quickly at the press of a button.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/journey.svg',
+            '/delapouite/steam-locomotive.svg',
+            '/delapouite/mini-submarine.svg',
+            '/delapouite/star-gate.svg',
+            '/delapouite/old-wagon.svg'
+        ]
+    },
+    {
+        ideaName: 'Many Locations',
+        description: "Take the player across many small destinations.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/monument-valley.svg',
+            '/delapouite/jungle.svg',
+            '/delapouite/modern-city.svg',
+            '/lorc/peaks.svg',
+            '/delapouite/smoking-volcano.svg'
+        ]
+    },
+    {
+        ideaName: 'Rival',
+        description: "Whatever your goal is, an NPC is also trying to do it, and better.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/face-to-face.svg',
+            '/lorc/backstab.svg',
+            '/delapouite/robber.svg',
+            '/delapouite/vote.svg',
+            '/delapouite/public-speaker.svg'
+        ]
+    },
+    {
+        ideaName: 'Nemesis',
+        description: "Whatever your goal is, an NPC is trying to stop you, personally.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/sword-clash.svg',
+            '/darkzaitzev/running-ninja.svg',
+            '/lorc/shadow-follower.svg',
+            '/delapouite/enrage.svg',
+            '/delapouite/face-to-face.svg'
+        ]
+    },
+    {
+        ideaName: 'Icarus',
+        description: "Have a great power that can lead to ruin.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/icarus.svg',
+            '/lorc/death-note.svg',
+            '/delapouite/atlas.svg',
+            '/lorc/voodoo-doll.svg',
+            '/delapouite/power-ring.svg'
+        ]
+    },
+    {
+        ideaName: 'Pressure',
+        description: "Something time sensitive is happening.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/cycle.svg',
+            '/lorc/poison-bottle.svg',
+            '/lorc/time-bomb.svg',
+            '/delapouite/cornucopia.svg',
+            '/delapouite/present.svg'
+        ]
+    },
+    {
+        ideaName: 'Checkpoint',
+        description: "Save the player's progress for them.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/checkered-flag.svg',
+            '/delapouite/archive-register.svg',
+            '/delapouite/oasis.svg',
+            '/delapouite/save.svg',
+            '/delapouite/elevator.svg'
+        ]
+    },
+    {
+        ideaName: 'Map',
+        description: "Include a map for the player.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/treasure-map.svg',
+            '/delapouite/position-marker.svg',
+            '/lorc/compass.svg',
+            '/lorc/wooden-sign.svg',
+            '/delapouite/wireframe-globe.svg'
+        ]
+    },
+    {
+        ideaName: 'EXPLOSIONS',
+        description: "EVERYTHING IS BETTER WITH EXPLOSIONS!",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/land-mine.svg',
+            '/lorc/crowned-explosion.svg',
+            '/lorc/mushroom-cloud.svg',
+            '/lorc/meteor-impact.svg',
+            '/delapouite/exploding-planet.svg'
+        ]
+    },
+    {
+        ideaName: 'Godlike',
+        description: "Control the environment rather than the people.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/dozen.svg',
+            '/lorc/prayer.svg',
+            '/delapouite/chat-bubble.svg',
+            '/delapouite/hand-of-god.svg',
+            '/lorc/lightning-tree.svg'
+        ]
+    },
+    {
+        ideaName: 'Climbing',
+        description: "Allow players to climb around and get to places they probably shouldn't.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/caro-asercion/mountain-climbing.svg',
+            '/delapouite/ladder.svg',
+            '/lorc/gecko.svg',
+            '/delapouite/jump-across.svg',
+            '/lorc/grapple.svg'
+        ]
+    },
+    {
+        ideaName: 'Language Creation',
+        description: "Create and evolve language as you play.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/scroll-quill.svg',
+            '/lorc/conversation.svg',
+            '/delapouite/wax-tablet.svg',
+            '/lorc/book-cover.svg',
+            '/delapouite/inspiration.svg'
+        ]
+    },
+    {
+        ideaName: 'Jumpman',
+        description: "Things can be hurt by landing on them.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/jump-across.svg',
+            '/delapouite/robot-leg.svg',
+            '/lorc/boot-stomp.svg',
+            '/lorc/jetpack.svg',
+            '/delapouite/pool-dive.svg'
+        ]
+    },
+    {
+        ideaName: 'Crouch Jump',
+        description: "Crouching then jumping lets you jump higher.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/leapfrog.svg',
+            '/felbrigg/overhead.svg',
+            '/delapouite/robot-leg.svg',
+            '/darkzaitzev/acrobatic.svg',
+            '/lorc/frog.svg'
+        ]
+    },
+    {
+        ideaName: 'Mighty Foot',
+        description: "Kick enemies with great force.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/high-kick.svg',
+            '/lorc/boot-kick.svg',
+            '/delapouite/push.svg',
+            '/lorc/spatter.svg',
+            '/delapouite/rugby-conversion.svg'
+        ]
+    },
+    {
+        ideaName: 'Double Jump',
+        description: "Jump while in mid-air.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/jump-across.svg',
+            '/delapouite/cloud-upload.svg',
+            '/darkzaitzev/acrobatic.svg',
+            '/delapouite/leapfrog.svg',
+            '/delapouite/robot-leg.svg'
+        ]
+    },
+    {
+        ideaName: 'Short and Sweet',
+        description: "30 seconds, then the game resets.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/backward-time.svg',
+            '/delapouite/time-dynamite.svg',
+            '/delapouite/puzzle.svg',
+            '/cathelineau/chariot.svg',
+            '/lorc/quicksand.svg'
+        ]
+    },
+    {
+        ideaName: 'Puzzle',
+        description: "Start with the obstacle, include hints and pieces after.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/lorc/quicksand.svg',
+            '/delapouite/pipes.svg',
+            '/delapouite/puzzle.svg',
+            '/lorc/laserburn.svg',
+            '/delapouite/spiked-wall.svg'
+        ]
+    },
+    {
+        ideaName: 'Trap',
+        description: "A deadly obstacle awaits unfortunate souls.",
+        ideaType: wildcardType,
+        icons: [ 
+            '/delapouite/boulder-dash.svg',
+            '/delapouite/spiked-wall.svg',
+            '/delapouite/mimic-chest.svg',
+            '/lorc/quicksand.svg',
+            '/lorc/grease-trap.svg'
+        ]
+    },
+    {
+        ideaName: 'Post Game Content',
+        description: 'New content that is only accessible after beating the game.',
+        ideaType: wildcardType,
+        icons: [
+            '/delapouite/magic-axe.svg',
+            '/lorc/divergence.svg',
+            '/delapouite/target-prize.svg',
+            '/skoll/open-treasure-chest.svg',
+            '/delapouite/magic-axe.svg'
         ]
     }
 ];

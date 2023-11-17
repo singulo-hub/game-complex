@@ -150,7 +150,7 @@ export const SETTINGS: IIdea[] = [
     },
     {
         ideaName: 'Cyborgs',
-        description: "Your vision is augmented.",
+        description: "My vision is augmented.",
         ideaType: settingType,
         icons: [
             '/delapouite/cyber-eye.svg',
