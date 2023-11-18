@@ -1,65 +1,75 @@
-.randomize-button {
-    margin: 1vmax auto;
-    position: relative;
-    background-color: transparent;
-    border: 0;
-    font-family: enter-command-bold;
-    font-size: calc(32px + 0.5vmax);
-    padding: 0;
-    cursor: pointer;
-    width: 100%;
-    
-    .title {
-        text-align: center;
-        margin: 0;
-    }
-    .subtitle {
-        text-align: center;
-        margin: 0;
-    }
-}
-
-.help-button {
-    cursor: pointer;
-    background-color: transparent;
-    border: 0;
-    padding: 0;
-    position: absolute;
-    top: calc(16px + 0.5vmax);
-}
-
-.idea-types-container {
+.content {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    width: calc(300px + 20vmax);
-    margin: 0 auto;
-    position: relative;
-}
 
-@media only screen and (max-width: 768px) {
-    .idea-types-container {
-        width: 90vw;
+    .randomize-button {
+        margin: 1vmax auto;
+        position: relative;
+        background-color: transparent;
+        border: 0;
+        font-family: enter-command-bold;
+        font-size: calc(32px + 0.5vmax);
+        padding: 0;
+        cursor: pointer;
+        width: 100%;
+        
+        .title {
+            text-align: center;
+            margin: 0;
+        }
+        .subtitle {
+            text-align: center;
+            margin: 0;
+        }
     }
-}
-
-ideas {
-    flex-grow: 1;
-    margin: 0 0 1vmax 0;
-}
-
-footer {
-    margin: 0;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
     
-    p {
-        margin: 0;
+    .help-button {
+        cursor: pointer;
+        background-color: transparent;
+        border: 0;
+        padding: 0;
+        position: absolute;
+        top: calc(16px + 0.5vmax);
+    }
+    
+    .idea-types-container {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        flex-grow: 1;
 
-        a {
-            color: white;
-            text-decoration: none;
+        .idea-types-group {
+            width: calc(300px + 20vmax);
+    
+            ideas {
+                flex-grow: 1;
+                margin: 0 0 1vmax 0;
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .idea-types-container {
+            flex-direction: column;
+            margin: 0 auto;
+        }
+    }
+    
+    footer {
+        margin: 0;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        
+        p {
+            margin: 0;
+    
+            a {
+                color: white;
+                text-decoration: none;
+            }
         }
     }
 }
