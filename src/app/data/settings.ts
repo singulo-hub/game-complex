@@ -603,5 +603,17 @@ export const SETTINGS: IIdea[] = [
             '/lorc/hot-spices.svg',
             '/lorc/caldera.svg'
         ]
+    },
+    {
+        ideaName: 'Aliens',
+        description: "Watch out for that UFO!",
+        ideaType: settingType,
+        icons: [
+            '/lorc/alien-stare.svg',
+            '/delapouite/alien-egg.svg',
+            '/delapouite/ufo.svg',
+            '/delapouite/alien-bug.svg',
+            '/delapouite/metroid.svg'
+        ]
     }
 ];

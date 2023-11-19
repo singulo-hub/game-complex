@@ -1146,7 +1146,7 @@ export const WILDCARDS: IIdea[] = [
     },
     {
         ideaName: 'Trap',
-        description: "A deadly obstacle awaits unfortunate souls.",
+        description: "A deadly obstacle awaits an unfortunate victim.",
         ideaType: wildcardType,
         icons: [ 
             '/delapouite/boulder-dash.svg',
@@ -1166,6 +1166,54 @@ export const WILDCARDS: IIdea[] = [
             '/delapouite/target-prize.svg',
             '/skoll/open-treasure-chest.svg',
             '/delapouite/magic-axe.svg'
+        ]
+    },
+    {
+        ideaName: 'Game Juice',
+        description: 'Improve the look and feel of your game.',
+        ideaType: wildcardType,
+        icons: [
+            '/lorc/explosion-rays.svg',
+            '/delapouite/party-popper.svg',
+            '/lorc/quake-stomp.svg',
+            '/skoll/sound-waves.svg',
+            '/lorc/star-swirl.svg'
+        ]
+    },
+    {
+        ideaName: 'Fix-r-uppers',
+        description: 'Include ability to maintain something.',
+        ideaType: wildcardType,
+        icons: [
+            '/delapouite/broken-wall.svg',
+            '/lorc/broken-shield.svg',
+            '/delapouite/broken-axe.svg',
+            '/delapouite/mechanic-garage.svg',
+            '/lorc/shattered-sword.svg'
+        ]
+    },
+    {
+        ideaName: 'Transportation',
+        description: "There's a transportation network that can get you around.",
+        ideaType: wildcardType,
+        icons: [
+            '/caro-asercion/subway-train.svg',
+            '/delapouite/plane-wing.svg',
+            '/delapouite/bus.svg',
+            '/delapouite/ropeway.svg',
+            '/delapouite/steam-locomotive.svg'
+        ]
+    },
+    {
+        ideaName: 'Gremlins',
+        description: "There's mischievous little troublemakers causing trouble.",
+        ideaType: wildcardType,
+        icons: [
+            '/caro-asercion/goblin.svg',
+            '/cathelineau/bad-gnome.svg',
+            '/delapouite/goblin-head.svg',
+            '/delapouite/floating-ghost.svg',
+            '/delapouite/devil-mask.svg'
         ]
     }
 ];
