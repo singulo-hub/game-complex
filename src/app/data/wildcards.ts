@@ -1162,10 +1162,58 @@ export const WILDCARDS: IIdea[] = [
         ideaType: wildcardType,
         icons: [
             '/delapouite/magic-axe.svg',
-            '/lorc/divergence.svg',
-            '/delapouite/target-prize.svg',
             '/skoll/open-treasure-chest.svg',
-            '/delapouite/magic-axe.svg'
+            '/delapouite/hand-of-god.svg',
+            '/delapouite/glowing-artifact.svg',
+            '/delapouite/peace-dove.svg'
+        ]
+    },
+    {
+        ideaName: 'Needs',
+        description: 'You need something to stay alive.',
+        ideaType: wildcardType,
+        icons: [
+            '/delapouite/water-bottle.svg',
+            '/delapouite/medicines.svg',
+            '/delapouite/nested-hearts.svg',
+            '/delapouite/eating.svg',
+            '/delapouite/scuba-tanks.svg'
+        ]
+    },
+    {
+        ideaName: 'Physics',
+        description: 'Include something fun with physics.',
+        ideaType: wildcardType,
+        icons: [
+            '/delapouite/matter-states.svg',
+            '/lorc/thrown-spear.svg',
+            '/delapouite/push.svg',
+            '/delapouite/pull.svg',
+            '/delapouite/waterfall.svg'
+        ]
+    },
+    {
+        ideaName: 'Bouncy',
+        description: 'Something is bouncy!',
+        ideaType: wildcardType,
+        icons: [
+            '/delapouite/bouncing-spring.svg',
+            '/lorc/bouncing-sword.svg',
+            '/caro-asercion/ricochet.svg',
+            '/lorc/shield-reflect.svg',
+            '/delapouite/bed.svg'
+        ]
+    },
+    {
+        ideaName: 'Squishy',
+        description: 'Something is squishy...',
+        ideaType: wildcardType,
+        icons: [
+            '/lorc/squid.svg',
+            '/delapouite/slime.svg',
+            '/delapouite/toy-mallet.svg',
+            '/delapouite/slippers.svg',
+            '/lorc/heart-organ.svg'
         ]
     },
     {
