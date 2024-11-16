@@ -1,5 +1,6 @@
 <div class="ideas-container">
     <button class="ideas-button" (click)="dropIdeas()">
+        <img #randomizeButton src="{{randomizeButtonSrc}}" draggable="false">
         <h2 [style.color]="ideaType.iconColor">{{ideaType.typeName| uppercase}}</h2>
     </button>
     <ul>
