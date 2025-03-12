@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "game-complex:build:production"
+              "buildTarget": "game-complex:build:production"
             },
             "development": {
-              "browserTarget": "game-complex:build:development"
+              "buildTarget": "game-complex:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "game-complex:build"
+            "buildTarget": "game-complex:build"
           }
         },
         "test": {
