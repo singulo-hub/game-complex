@@ -7,9 +7,10 @@ import { IIdea } from '../models/idea';
 import { IIdeaType } from '../models/idea-type';
 
 @Component({
-  selector: 'ideas',
-  templateUrl: './ideas.component.html',
-  styleUrls: ['./ideas.component.less']
+    selector: 'ideas',
+    templateUrl: './ideas.component.html',
+    styleUrls: ['./ideas.component.less'],
+    standalone: false
 })
 export class IdeasComponent implements OnInit, AfterViewInit {
   @Input() ideaType: IIdeaType = goalType;
