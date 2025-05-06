@@ -335,7 +335,7 @@ export const SETTINGS: IIdea[] = [
         icons: [
             '/skoll/bayonet.svg',
             '/lorc/mushroom-cloud.svg',
-            '/battle-tank.svg',
+            '/lorc/battle-tank.svg',
             '/delapouite/flamethrower-soldier.svg',
             '/lorc/gas-mask.svg'
         ]
