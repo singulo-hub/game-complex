@@ -52,10 +52,8 @@ export class IdeasComponent implements OnInit, AfterViewInit {
     if (this.ideaType) {
       this.ideaService.getIdeas(this.ideaType.typeName).subscribe(ideas => {
         this.ideas = ideas;
-        if (process.env['NODE_ENV'] === 'development') {
-          console.debug(this.ideaType);
-          console.debug(this.ideas);
-        }
+        //console.debug(this.ideaType);
+        //console.debug(this.ideas);
         if (this.ideas.length > 0) {
           this.ideas = arrayShuffle(this.ideas);
           for (let index = 0; index < this.amount; index++) {
